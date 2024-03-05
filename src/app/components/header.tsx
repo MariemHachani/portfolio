@@ -45,7 +45,7 @@ export default function Header() {
             backgroundColor: navColor,
             boxShadow: shadow,
             color: textColor,
-            transition: "ease-in-out 0.5s"
+            transition: "ease-in-out 0.25s"
         }}>
             <div className=" sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-7xl mx-auto px-4 md:px-8 py-1 md:py-2 flex justify-between items-center  " >
                 <div className="flex flex-col items-center text-sm md:text-base leading-none">
@@ -56,49 +56,70 @@ export default function Header() {
                 <div className='flex text-base md:text-lg' style={poppins.style}>
                     {pathname.includes("artsy") ? (<>
                         <div className="group relative">
-                            <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/portfolio' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/">Portfolio</Link>
-                            <div className={`absolute bg-white  text-sm top-8 z-30 w-[190px]  hidden flex-col py-4 shadow-sm shadow-green rounded-md group-hover:flex`}>
+                            <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/portfolio' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/artsy/portfolio">Portfolio</Link>
+                            <div className={`absolute text-midpink  bg-white  text-sm top-8 z-30 w-[190px]  hidden flex-col py-4 shadow-sm shadow-midpink rounded-md group-hover:flex`}>
 
                                 <Link
-                                    className="hover:text-green px-4 py-1"
+                                    className="  px-4 py-1"
                                     href='/'
 
-                                >Wedding Photography</Link>
+                                >
+                                    <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
+                                        Wedding Photography
+                                    </span></Link>
                                 <Link
-                                    className=" hover:text-green px-4 py-1"
+                                    className="  px-4 py-1"
                                     href='/'
-                                >Lifestyle Photoshoots</Link>
+                                >
+                                    <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
+
+                                        Lifestyle Photoshoots
+                                    </span></Link>
                                 <Link
-                                    className=" hover:text-green px-4 py-1"
+                                    className="  px-4 py-1"
                                     href='/'
-                                >Product Photography</Link>
+                                >
+                                    <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
+                                        Product Photography
+                                    </span></Link>
                                 <Link
-                                    className=" hover:text-green px-4 py-1"
+                                    className="  px-4 py-1"
                                     href='/'
-                                >Events Photography</Link>
+                                >
+                                    <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
+
+                                        Events Photography
+                                    </span></Link>
 
 
                             </div>
 
                         </div>
 
-                        <div className="group relative">
+                        <div className="group relative ">
                             <Link
                                 className={` mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent ${isOpen ? '! border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `}
                                 href='/'
                             >Services</Link>
-                            <div className={`absolute bg-white  text-sm top-8 z-30 w-[150px]  hidden flex-col py-4 shadow-sm shadow-green rounded-md group-hover:flex`}>
+                            <div className={`absolute text-midpink  bg-white  text-sm top-8 z-30 w-[150px]  hidden flex-col py-4 shadow-sm shadow-midpink rounded-md group-hover:flex`}>
 
                                 <Link
-                                    className="hover:text-green px-4 py-1"
+                                    className=" px-4 py-1"
                                     href='/'
                                     onClick={toggle}
-                                >Shooting</Link>
+                                >
+                                    <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
+
+                                        Shooting
+                                    </span></Link>
                                 <Link
-                                    className=" hover:text-green px-4 py-1"
+                                    className="  px-4 py-1"
                                     href='/'
                                     onClick={toggle}
-                                >Editing</Link>
+                                >
+                                    <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
+                                        Editing
+                                    </span></Link>
 
                             </div>
                         </div>
