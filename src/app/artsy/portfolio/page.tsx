@@ -1,7 +1,38 @@
 import { PlayfairDisplay, dancingscript, poppins } from "@/app/fonts/fonts";
 import Link from "next/link";
+import Card from "../_components/card";
+
+
+
+
 
 export default function Page() {
+    let cards = [
+        {
+            id: 0,
+            lib: "weddings",
+            url: "/",
+            img: "/jpg/wedding-photoshoot.jpg"
+        },
+        {
+            id: 1,
+            lib: "lifestyle",
+            url: "/",
+            img: "/jpg/lifestyle-photoshoot.jpg"
+        },
+        {
+            id: 2,
+            lib: "products",
+            url: "/",
+            img: "/jpg/product-photoshoot.jpg"
+        },
+        {
+            id: 3,
+            lib: "events",
+            url: "/",
+            img: "/jpg/events-photoshoot.jpg"
+        },
+    ]
     return (
         <div className="flex flex-col ">
 
@@ -17,65 +48,9 @@ export default function Page() {
                 <h2 style={dancingscript.style} className="text-green text-center font-bold text-2xl ">A very deliberate and stylised images for each session type</h2>
                 <div style={poppins.style}>
                     <div className="mt-16 flex flex-wrap justify-evenly items-center">
-                        <Link href={"/"} className="relative w-80 mx-10 my-8 group">
-                            <div className="w-full h-80 bg-midpink-extra absolute  -top-8 -left-4">
-                                <span style={PlayfairDisplay.style}
-                                    className="absolute text-darkgreen bottom-4 left-2 leading-none rotate-180 [writing-mode:vertical-lr]  text-black inline-blocks uppercase tracking-widest">WEDDINGS</span>
-                            </div>
-                            <div className="relative left-4">
-                                <div className="flex justify-center items-center shadow-md overflow-hidden rounded-tr-[40px] rounded-bl-[40px]">
-
-                                    <img className="w-full h-80 hover:scale-125 saturate-0 hover:saturate-100 ease-in-out duration-500 object-center object-cover relative rounded-tr-[40px] rounded-bl-[40px]"
-                                        src="/jpg/wedding-photoshoot.jpg" alt="" />
-                                    <h1 style={PlayfairDisplay.style} className="drop-shadow-md absolute m-auto text-2xl text-white translate-y-20 group-hover:translate-y-0 duration-200 group-hover:opacity-100 group-hover:visible opacity-0 invisible">See More</h1>
-
-                                </div>
-                            </div>
-                        </Link>
-                        <div className="relative w-80 mx-10 my-8 group">
-                            <div className="w-full h-80  bg-midpink-extra absolute  -top-8 -left-4">
-                                <span style={PlayfairDisplay.style}
-                                    className="absolute text-darkgreen  bottom-4 left-2 leading-none rotate-180 [writing-mode:vertical-lr]  text-black inline-blocks uppercase tracking-widest">LIFESTYLE</span>
-                            </div>
-                            <Link href={"/"} className="relative left-4  ">
-                                <div className=" flex justify-center items-center  shadow-md overflow-hidden rounded-tr-[40px] rounded-bl-[40px]">
-
-                                    <img className="w-full h-80 hover:scale-125 saturate-0 hover:saturate-100  ease-in-out duration-500 object-center object-cover relative rounded-tr-[40px] rounded-bl-[40px]"
-                                        src="/jpg/lifestyle-photoshoot.jpg" alt="" />
-                                    <h1 style={PlayfairDisplay.style} className="drop-shadow-md absolute m-auto text-2xl text-white translate-y-20 group-hover:translate-y-0 duration-200 group-hover:opacity-100 group-hover:visible opacity-0 invisible">See More</h1>
-
-                                </div>
-                            </Link>
-                        </div>
-                        <Link href={"/"} className="relative w-80 mx-10 my-8 group">
-                            <div className="w-full h-80  bg-midpink-extra absolute  -top-8 -left-4">
-                                <span style={PlayfairDisplay.style}
-                                    className="absolute text-darkgreen bottom-4 left-2 leading-none rotate-180 [writing-mode:vertical-lr]  text-black inline-blocks uppercase tracking-widest">PRODUCTS</span>
-                            </div>
-                            <div className="relative left-4">
-                                <div className="flex justify-center items-center shadow-md overflow-hidden rounded-tr-[40px] rounded-bl-[40px]">
-
-                                    <img className="w-full h-80 hover:scale-125 saturate-0 hover:saturate-100 ease-in-out duration-500 object-center object-cover relative rounded-tr-[40px] rounded-bl-[40px]"
-                                        src="/jpg/product-photoshoot.jpg" alt="" />
-                                    <h1 style={PlayfairDisplay.style} className="drop-shadow-md absolute m-auto text-2xl text-white translate-y-20 group-hover:translate-y-0 duration-200 group-hover:opacity-100 group-hover:visible opacity-0 invisible">See More</h1>
-
-                                </div>
-                            </div>
-                        </Link>
-                        <Link href={"/"} className="relative w-80 mx-10 my-8 group">
-                            <div className="w-full h-80  bg-midpink-extra absolute  -top-8 -left-4">
-                                <span style={PlayfairDisplay.style}
-                                    className="absolute text-darkgreen bottom-4 left-2 leading-none rotate-180 [writing-mode:vertical-lr]  text-black inline-blocks uppercase tracking-widest">EVENTS</span>
-                            </div>
-                            <div className="relative left-4">
-                                <div className="flex justify-center items-center shadow-md overflow-hidden rounded-tr-[40px] rounded-bl-[40px]">
-                                    <img className="w-full h-80 hover:scale-125 saturate-0 hover:saturate-100 ease-in-out duration-500 object-center object-cover relative rounded-tr-[40px] rounded-bl-[40px]"
-                                        src="/jpg/events-photoshoot.jpg" alt="" />
-                                    <h1 style={PlayfairDisplay.style} className="drop-shadow-md absolute m-auto text-2xl text-white translate-y-20 group-hover:translate-y-0 duration-200 group-hover:opacity-100 group-hover:visible opacity-0 invisible">See More</h1>
-
-                                </div>
-                            </div>
-                        </Link>
+                        {cards.map((card) => (
+                            <Card key={card.id} lib={card.lib} url={card.url} img={card.img} />
+                        ))}
                     </div>
                 </div>
             </div >

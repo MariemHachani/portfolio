@@ -1,14 +1,14 @@
 'use client'
 
 import { useEffect } from "react"
-import About from "./_about/page"
+import About from "./_components/about"
 import Wedding from "./_weddings/page"
 import Lifestyle from "./_lifestyle/page"
 import Product from "./_products/page"
 import { PlayfairDisplay, poppins } from "../fonts/fonts"
 import Events from "./_events/page"
-import Services from "./_services/page"
-import Footer from "./_footer/page"
+import Services from "./_components/service"
+import Footer from "./_components/footer"
 
 export default function Page() {
   useEffect(() => {
