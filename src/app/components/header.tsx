@@ -61,7 +61,7 @@ export default function Header() {
 
                                 <Link
                                     className="  px-4 py-1"
-                                    href='/'
+                                    href='/artsy/portfolio/weddings'
 
                                 >
                                     <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
