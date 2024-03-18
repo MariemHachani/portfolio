@@ -6,6 +6,9 @@ const nextConfig = {
         },
         taint: true, //prevent sensitive data from being exposed to the client
       },
+      images:{
+        domains: [ 'source.unsplash.com']
+      }
 }
 
 module.exports = nextConfig
