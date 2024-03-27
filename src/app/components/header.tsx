@@ -99,7 +99,7 @@ export default function Header() {
                         <div className="group relative ">
                             <Link
                                 className={` mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent ${isOpen ? '! border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `}
-                                href='/'
+                                href='/artsy/services'
                             >Services</Link>
                             <div className={`absolute text-midpink  bg-white  text-sm top-8 z-30 w-[150px]  hidden flex-col py-4 shadow-sm shadow-midpink rounded-md group-hover:flex`}>
 
