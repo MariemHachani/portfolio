@@ -146,7 +146,8 @@ export default function Weddings() {
 
                     <img src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-96 w-full object-cover bg-center bg-no-repeat" />
                 </div>
-                <div className="md:pt-5 pt-8">
+                <div className="md:pt-5 pt-8 text-end ">
+                    <GreenTitle title="Gallery"  />
 
                     <PhotoAlbum layout="columns"
                         photos={photos}
@@ -177,19 +178,6 @@ export default function Weddings() {
                     render={{ slide: ModalJsImage }}
 
                 />
-                {/* <div className="md:pt-5 pt-8">
-                    <div className="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
-                        {photos.map(photo => (
-                            <div className="my-4" key={photo.id}>
-
-                                <Link href={`./weddings/photo/${photo.id}`} passHref>
-                                    <Image src={photo.src} width={300} height={300} alt={photo.alt} /></Link>
-
-                            </div>
-                        ))}
-
-                    </div>
-                </div> */}
             </div >
         </div>
     )
