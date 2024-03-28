@@ -7,7 +7,7 @@ export default function Page() {
         {
             id: 0,
             lib: "shooting",
-            url: "/artsy/portfolio/weddings",
+            url: "/photographer-brussels/portfolio/weddings",
             img: "/jpg/wedding-photoshoot.jpg"
         },
         {

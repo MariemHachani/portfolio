@@ -17,7 +17,7 @@ export default function Footer() {
                 <Link href={"#"}>Editing</Link>
             </div>
             <div className="flex flex-col">
-                <Link href={"/artsy/contact"}>Contact</Link>
+                <Link href={"/photographer-brussels/contact"}>Contact</Link>
 
                 <ul className="flex mt-3 space-x-4">
                     <li className="shrink-0">

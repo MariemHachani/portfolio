@@ -12,7 +12,7 @@ export default function Home() {
      <p className="text-3xl text-darkgreen py-10" style={poppins.style}>Discover my interests and skills</p>
      <div className="flex flex-row justify-center ">
       <Link href="/logical" prefetch={false}><LeftBrain height={300}width={400}/></Link>
-      <Link href="/artsy" prefetch={false}><RightBrain height={300}width={400}/></Link>
+      <Link href="/photographer-brussels" prefetch={false}><RightBrain height={300}width={400}/></Link>
       
       </div>
     </main>
