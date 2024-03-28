@@ -124,11 +124,11 @@ export default function Header() {
                             </div>
                         </div>
                         <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/my-brand' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/artsy/hire-photographer">Why hire me?</Link>
-                        <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/pricing' ? ' !border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/pricing">Pricing</Link>
-                    </>) :
+                        {/*                         <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/pricing' ? ' !border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/pricing">Pricing</Link>
+ */}                    </>) :
                         <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent ${pathname === '/about' ? '  !border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/about">About</Link>
                     }
-                    <Link className={`mx-2 pb-0.5 cursor-pointer  border-b-2 border-transparent  ${pathname === '/contact' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/">Contact</Link>
+                    <Link className={`mx-2 pb-0.5 cursor-pointer  border-b-2 border-transparent  ${pathname === '/contact' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/artsy/contact">Contact</Link>
 
                 </div>
 

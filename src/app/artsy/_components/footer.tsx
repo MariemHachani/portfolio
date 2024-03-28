@@ -1,5 +1,6 @@
 import { poppins } from "@/app/fonts/fonts";
 import Link from "next/link";
+import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 
 export default function Footer() {
     return (
@@ -16,12 +17,28 @@ export default function Footer() {
                 <Link href={"#"}>Editing</Link>
             </div>
             <div className="flex flex-col">
-                <Link href={"#"}>Pricing</Link>
-                <Link href={"#"}>Contact</Link>
-                <div className="flex">
-                    <Link href={"#"}>social  </Link>
-                    <Link href={"#"}>social</Link>
-                </div>
+                <Link href={"/artsy/contact"}>Contact</Link>
+
+                <ul className="flex mt-3 space-x-4">
+                    <li className="shrink-0">
+                        <a href="#" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center ">
+                            <FiFacebook stroke="#039f9b" size={20} />
+
+                        </a>
+                    </li>
+                    <li className="shrink-0">
+                        <a href="#" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center ">
+                            <FiLinkedin stroke="#039f9b" size={20} />
+
+                        </a>
+                    </li>
+                    <li className=" shrink-0">
+                        <a href="#" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center">
+                            <FiInstagram stroke="#039f9b" size={20} />
+                        </a>
+                    </li>
+                </ul>
+
             </div>
         </div>
     )

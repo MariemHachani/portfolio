@@ -14,7 +14,10 @@ module.exports = {
         transparent: '#e090ad80',
         extra: '#e090ad50'
       },
-      'teal': '#039f9b',
+      'teal': {
+        DEFAULT: '#039f9b',
+        transparent: '#039f9b20',
+      },
       'green': {
         DEFAULT:'#066255',
         transparent:'#06625550' 
