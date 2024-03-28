@@ -3,7 +3,7 @@ import { PlayfairDisplay, dancingscript, poppins } from "../../fonts/fonts"
 export default function About() {
 
     return (
-        <div className="sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-7xl mx-auto px-4 md:px-12 py-2 md:py-8 text-center flex flex-col items-center">
+        <div className="sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8 text-center flex flex-col items-center">
             <h1 style={PlayfairDisplay.style} className="text-green font-bold text-2xl uppercase">A professional photographer in Brussels</h1>
             <h2 style={dancingscript.style} className="text-green font-bold text-2xl ">My name is Mariem Hachani</h2>
             <div style={poppins.style} >

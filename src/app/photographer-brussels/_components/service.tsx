@@ -2,7 +2,7 @@ import { PlayfairDisplay, poppins } from "@/app/fonts/fonts";
 
 export default function Services() {
     return (
-        <div className=" flex flex-col items-center justify-center sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-7xl mx-auto px-4 md:px-12 py-2 md:py-8 ">
+        <div className=" flex flex-col items-center justify-center sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8 ">
             <h2 style={PlayfairDisplay.style} className="text-2xl text-green uppercase">My services</h2>
             <div className="flex py-8 -z-10 ">
                 <div className="flex-1 relative mr-2 flex">

@@ -47,7 +47,7 @@ export default function Header() {
             color: textColor,
             transition: "ease-in-out 0.25s"
         }}>
-            <div className=" sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-7xl mx-auto px-4 md:px-8 py-1 md:py-2 flex justify-between items-center  " >
+            <div className=" sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-8 py-1 md:py-2 flex justify-between items-center  " >
                 <div className="flex flex-col items-center text-sm md:text-base leading-none">
                     <a href="/" style={PlayfairDisplay.style}>Mariem Hachani</a>
                     <div style={dancingscript.style} className='tracking-wider'>
