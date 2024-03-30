@@ -12,19 +12,19 @@ export default function PortfolioCards() {
         {
             id: 1,
             lib: "lifestyle",
-            url: "/",
+            url: "/photographer-brussels/portfolio/weddings",
             img: "/jpg/lifestyle-photoshoot.jpg"
         },
         {
             id: 2,
             lib: "products",
-            url: "/",
+            url: "/photographer-brussels/portfolio/weddings",
             img: "/jpg/product-photoshoot.jpg"
         },
         {
             id: 3,
             lib: "events",
-            url: "/",
+            url: "/photographer-brussels/portfolio/weddings",
             img: "/jpg/events-photoshoot.jpg"
         },
     ]

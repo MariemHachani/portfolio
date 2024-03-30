@@ -1,19 +1,20 @@
 import { dancingscript, PlayfairDisplay, poppins } from "@/app/fonts/fonts";
 import PageBanner from "../_components/page_banner";
 import Card from "../_components/card";
+import NoImageBanner from "../_components/no_image_banner";
 
 export default function Page() {
     let cards = [
         {
             id: 0,
             lib: "shooting",
-            url: "/photographer-brussels/portfolio/weddings",
+            url: "/photographer-brussels/services/photoshoots",
             img: "/jpg/wedding-photoshoot.jpg"
         },
         {
             id: 1,
             lib: "editing",
-            url: "/",
+            url: "/photographer-brussels/services/editing",
             img: "/jpg/lifestyle-photoshoot.jpg"
         },
     ]
@@ -35,7 +36,9 @@ export default function Page() {
                         ))}
                     </div>
                 </div>
+
             </div >
+            <NoImageBanner title="For every need and occasion" subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolore quo soluta ullam earum maiores ipsa ad voluptates tempora incidunt! Ut pariatur labore commodi delectus corrupti molestias optio tenetur beatae?" />
         </div>
     )
 }
