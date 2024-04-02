@@ -7,6 +7,7 @@ import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { LuFacebook, LuLinkedin } from "react-icons/lu";
 import { FaInstagram } from "react-icons/fa6";
 import { TbBrandFacebook } from "react-icons/tb";
+import ContactForm from "../_components/contact_form";
 
 export default function Page() {
     return (
@@ -26,7 +27,7 @@ export default function Page() {
                         <ul className="mt-3">
                             <li className="flex items-center">
                                 <div className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                    <PiPhoneCallLight fill="#039f9b" size={25} title="+32465168391"/>
+                                    <PiPhoneCallLight fill="#039f9b" size={25} title="+32465168391" />
 
                                 </div>
                                 <a target="blank" href="#" className="text-green text-sm ml-3">
@@ -70,21 +71,8 @@ export default function Page() {
                         </ul>
                     </div>
                 </div>
+                <ContactForm />
 
-                <form className="ml-auto space-y-4">
-                    <h2 style={dancingscript.style} className="mt-8 sm:mt-0 text-2xl text-left sm:hidden text-darkgreen font-extrabold">Message</h2>
-
-                    <input type='text' placeholder='Name'
-                        className="w-full py-2.5 px-4 border-b text-sm outline-green" />
-                    <input type='email' placeholder='Email'
-                        className="w-full  py-2.5 px-4 border-b text-sm outline-green" />
-                    <input type='text' placeholder='Subject'
-                        className="w-full py-2.5 px-4 border-b text-sm outline-green" />
-                    <textarea placeholder='Message' rows={6}
-                        className="w-full  px-4 border-b text-sm pt-2.5 outline-green"></textarea>
-                    <button type='button'
-                        className="text-white bg-green hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
-                </form>
             </div>
         </div>
 

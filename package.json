@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@types/nodemailer": "^6.4.14",
     "next": "14.0.4",
+    "nodemailer": "^6.9.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.2",
     "react-icons": "^5.0.1",
     "react-photo-album": "^2.3.1",
     "server-only": "^0.0.1",
