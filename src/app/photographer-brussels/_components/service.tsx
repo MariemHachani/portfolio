@@ -10,7 +10,7 @@ export default function Services() {
                     <img className="object-cover h-full w-full" src="/jpg/shooting.jpg" alt="event-photograhy"></img>
                     <div style={poppins.style} className="absolute bottom-0 py-6 bg-midpink-transparent text-center w-full ">
                         <p className="text-white uppercase font-bold text-2xl py-2">Shooting</p>
-                        <link href="/photographer-brussels/services/editing" className=" w-fit border-solid border-white border-2 py-2 px-4 text-xl  text-white hover:bg-midpink rounded-md uppercase">See More</link>
+                        <Link href="/photographer-brussels/services/editing" className=" w-fit border-solid border-white border-2 py-2 px-4 text-xl  text-white hover:bg-midpink rounded-md uppercase">See More</Link>
                     </div>
                 </div>
                 <div className="flex-1 relative ml-2 flex ">

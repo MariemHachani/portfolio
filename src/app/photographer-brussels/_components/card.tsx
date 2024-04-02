@@ -5,8 +5,8 @@ interface CardProps {
     lib: string;
     url: string;
     img: string;
-   }
-export default function Card(card: CardProps ) {
+}
+export default function Card(card: CardProps) {
     return (
         <Link href={card.url} className="relative w-80 mx-10 my-8 group">
             <div className="w-full h-80  bg-midpink-extra absolute  -top-8 -left-4">
