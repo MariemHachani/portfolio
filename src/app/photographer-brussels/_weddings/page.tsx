@@ -1,9 +1,13 @@
 import { PlayfairDisplay, poppins } from "@/app/fonts/fonts";
 import Link from "next/link";
+import { useRef } from "react";
+import { useIsVisible } from "../_components/utils/element-visibility";
 
 export default function Wedding() {
+    const ref1 = useRef<HTMLInputElement>(null);
+    const isVisible1 = useIsVisible(ref1);
     return (
-        <div className=" flex py-4 h-96">
+        <div ref={ref1} className={`flex py-4 h-96 transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
             <div className="flex-1 ">
                 <div className="pr-16">
                     <h1 style={PlayfairDisplay.style} className="font-bold text-2xl text-midpink">Wedding Photography</h1>

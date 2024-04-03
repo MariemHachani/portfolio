@@ -1,9 +1,13 @@
 import { PlayfairDisplay, poppins } from "@/app/fonts/fonts";
 import Link from "next/link";
+import { useRef } from "react";
+import { useIsVisible } from "../_components/utils/element-visibility";
 
 export default function Events() {
+    const ref1 = useRef<HTMLInputElement>(null);
+    const isVisible1 = useIsVisible(ref1);
     return (
-        <div className=" flex py-4 h-96">
+        <div ref={ref1} className={`flex py-4 h-96 transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
             <div className="flex-1">
                 <img className="object-cover h-full w-full" src="/jpg/events-photoshoot.jpg" alt="event-photograhy"></img>
             </div>
