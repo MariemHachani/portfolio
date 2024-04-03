@@ -61,7 +61,7 @@ export default function Header() {
 
                                 <Link
                                     className="  px-4 py-1"
-                                    href='/photographer-brussels/portfolio/weddings'
+                                    href='/photographer-brussels/portfolio/wedding-photography'
 
                                 >
                                     <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
@@ -69,7 +69,7 @@ export default function Header() {
                                     </span></Link>
                                 <Link
                                     className="  px-4 py-1"
-                                    href='/'
+                                    href='/photographer-brussels/portfolio/lifestyle-photography'
                                 >
                                     <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
 
@@ -77,14 +77,14 @@ export default function Header() {
                                     </span></Link>
                                 <Link
                                     className="  px-4 py-1"
-                                    href='/'
+                                    href='/photographer-brussels/portfolio/product-photography'
                                 >
                                     <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
                                         Product Photography
                                     </span></Link>
                                 <Link
                                     className="  px-4 py-1"
-                                    href='/'
+                                    href='/photographer-brussels/portfolio/event-photography'
                                 >
                                     <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
 

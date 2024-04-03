@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { FormData } from '../contact_form';
 
 export function sendEmail(data: FormData): boolean {
