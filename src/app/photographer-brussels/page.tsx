@@ -22,12 +22,12 @@ export default function Page() {
     <div className="flex flex-col ">
 
       <div className="-mt-16 bg-cover bg-fixed bg-center bg-no-repeat " style={{ backgroundImage: "url(/jpg/wedding-shooting.jpg)" }}>
-        <div className="mt-96 bg-white">
+        <div className="mt-96  bg-white">
 
           <About />
         </div>
       </div>
-      <NoImageBanner title="Need a photograher?" subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolore quo soluta ullam earum maiores ipsa ad voluptates tempora incidunt! Ut pariatur labore commodi delectus corrupti molestias optio tenetur beatae?" />
+      <NoImageBanner title="Need a photograher?" subtitle="I'm here to help you out! Being part of your project for me would mean dedicating all the ressources needed to fulfill your exectations, to share your values and be fully involved in your event. From weddings,  portrait sessions, product commercials to events, with a touch of my own character I will love to showcase your story." />
 
 
       <div className="w-full sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8">

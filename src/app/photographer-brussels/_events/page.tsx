@@ -7,12 +7,12 @@ export default function Events() {
     const ref1 = useRef<HTMLInputElement>(null);
     const isVisible1 = useIsVisible(ref1);
     return (
-        <div ref={ref1} className={`flex py-4 h-96 transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+        <div ref={ref1} className={`flex flex-col md:flex-row py-4 h-fit transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
             <div className="flex-1">
                 <img className="object-cover h-full w-full" src="/jpg/events-photoshoot.jpg" alt="event-photograhy"></img>
             </div>
             <div className="flex-1 ">
-                <div className="pl-16">
+                <div className="md:pl-16 mt-4 md:mt-0">
                     <h1 style={PlayfairDisplay.style} className="font-bold text-2xl text-midpink">Events Photography</h1>
                     <p style={poppins.style} className="my-8 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur asperiores optio est voluptates expedita sint minus dolore qui, sed cum laboriosam, ratione temporibus? Necessitatibus eveniet natus nihil dolore accusamus quia.</p>
                     <Link href={"/photographer-brussels/portfolio/event-photography"}
