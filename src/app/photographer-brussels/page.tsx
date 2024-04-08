@@ -37,7 +37,7 @@ export default function Page() {
         <Events />
       </div>
       <Services />
-      <ImageCallToAction title="Need a photograher?" subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolore quo soluta ullam earum maiores ipsa ad voluptates tempora incidunt! Ut pariatur labore commodi delectus corrupti molestias optio tenetur beatae?" url="/photographer-brussels/contact" />
+      <ImageCallToAction title="Need a photograher?" subtitle="For individuals and professionals, I offer you my services as a photographer. I would love to be part of your project for that I'm ready to dedicate all the ressources needed to fulfill your exectations, to share your values and be fully involved in your event. " url="/photographer-brussels/contact" />
     </div>
   )
 }
