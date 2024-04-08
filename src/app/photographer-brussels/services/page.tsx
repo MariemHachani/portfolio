@@ -27,8 +27,8 @@ export default function Page() {
 
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col items-center text-center">
                 <h1 style={PlayfairDisplay.style} className="text-green font-bold text-2xl uppercase">Let's discover</h1>
-                <h2 style={dancingscript.style} className="text-green text-center font-bold text-2xl ">A very deliberate and stylised images for each session type</h2>
-                <p style={poppins.style} className="mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, illo aut error maxime sit porro optio velit qui dolor possimus, necessitatibus laboriosam et quidem nemo eos odio ut, quia sed.</p>
+                <h2 style={dancingscript.style} className="text-green text-center font-bold text-2xl ">A variety of offers from the first step in your project or in post-production</h2>
+                <p style={poppins.style} className="mt-8">As a photographer that tried so many different niches, I learned to manage all stages of the production process from planning to editing. I had the chance to learn advanced photo editing from color correction on Adobe Lightroom to enhancements and photo manipultion with Adobe Photoshop. I offer both shooting and editing services for clients.</p>
                 <div style={poppins.style}>
                     <div className="mt-16 flex flex-wrap justify-evenly items-center">
                         {cards && cards.map((card) => (
@@ -38,7 +38,7 @@ export default function Page() {
                 </div>
 
             </div >
-            <NoImageBanner title="For every need and occasion" subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolore quo soluta ullam earum maiores ipsa ad voluptates tempora incidunt! Ut pariatur labore commodi delectus corrupti molestias optio tenetur beatae?" />
+            <NoImageBanner title="For every need and occasion" subtitle="For both individuals and professionals, I'm ready to be part of your project. According to your values and identity, I offer you a set of flexible packages that best fit your needs. I would love to collaborate with you to reach your goals and expectations so I will love to hear from you from the button below." />
         </div>
     )
 }
