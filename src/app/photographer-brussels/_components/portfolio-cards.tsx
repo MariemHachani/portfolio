@@ -6,25 +6,25 @@ export default function PortfolioCards() {
         {
             id: 0,
             lib: "weddings",
-            url: "/photographer-brussels/portfolio/weddings",
+            url: "/photographer-brussels/portfolio/wedding-photography",
             img: "/jpg/wedding-photoshoot.jpg"
         },
         {
             id: 1,
             lib: "lifestyle",
-            url: "/photographer-brussels/portfolio/weddings",
+            url: "/photographer-brussels/portfolio/lifestyle-photography",
             img: "/jpg/lifestyle-photoshoot.jpg"
         },
         {
             id: 2,
             lib: "products",
-            url: "/photographer-brussels/portfolio/weddings",
+            url: "/photographer-brussels/portfolio/product-photography",
             img: "/jpg/product-photoshoot.jpg"
         },
         {
             id: 3,
             lib: "events",
-            url: "/photographer-brussels/portfolio/weddings",
+            url: "/photographer-brussels/portfolio/event-photography",
             img: "/jpg/events-photoshoot.jpg"
         },
     ]

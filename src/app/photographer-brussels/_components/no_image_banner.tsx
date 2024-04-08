@@ -1,3 +1,4 @@
+"use client"
 import { PlayfairDisplay, poppins } from "@/app/fonts/fonts"
 import Link from "next/link"
 import { useRef } from "react";
