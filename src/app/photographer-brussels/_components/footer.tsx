@@ -6,15 +6,15 @@ export default function Footer() {
     return (
         <div style={poppins.style} className="bg-darkgreen text-sm text-white py-10 flex items-center justify-evenly ">
             <div className="flex flex-col">
-                <Link href={"#"}>Wedding Photography</Link>
-                <Link href={"#"}>Lifestyle Photography</Link>
-                <Link href={"#"}>Products Photography</Link>
-                <Link href={"#"}>Events Photography</Link>
+                <Link href={"/photographer-brussels/portfolio/wedding-photography"}>Wedding Photography</Link>
+                <Link href={"/photographer-brussels/portfolio/lifestyle-photography"}>Lifestyle Photography</Link>
+                <Link href={"/photographer-brussels/portfolio/product-photography"}>Products Photography</Link>
+                <Link href={"/photographer-brussels/portfolio/event-photography"}>Events Photography</Link>
             </div>
             <div className="flex flex-col">
-                <Link href={"#"}>Why Hire Me ?</Link>
-                <Link href={"#"}>Shooting</Link>
-                <Link href={"#"}>Editing</Link>
+                <Link href={"/photographer-brussels/hire-photographer"}>Why Hire Me ?</Link>
+                <Link href={"/photographer-brussels/services/photoshoots"}>Shooting</Link>
+                <Link href={"/photographer-brussels/services/editing"}>Editing</Link>
             </div>
             <div className="flex flex-col">
                 <Link href={"/photographer-brussels/contact"}>Contact</Link>

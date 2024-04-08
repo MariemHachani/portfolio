@@ -1,12 +1,8 @@
 import { PiPhoneCallLight } from "react-icons/pi";
 import PageBanner from "../_components/page_banner";
-import { dancingscript, PlayfairDisplay, poppins } from "@/app/fonts/fonts";
+import { dancingscript,  poppins } from "@/app/fonts/fonts";
 import { CiMail } from "react-icons/ci";
-import { SlSocialFacebook, SlSocialInstagram, SlSocialLinkedin } from "react-icons/sl";
 import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
-import { LuFacebook, LuLinkedin } from "react-icons/lu";
-import { FaInstagram } from "react-icons/fa6";
-import { TbBrandFacebook } from "react-icons/tb";
 import ContactForm from "../_components/contact_form";
 
 export default function Page() {
@@ -21,7 +17,7 @@ export default function Page() {
 
                 <div className="text-left ">
                     <h1 style={dancingscript.style} className="text-3xl text-darkgreen font-extrabold">Let's Talk</h1>
-                    <p className="text-sm text-gray-400 text-justify mt-3 w-4/5">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>
+                    <p className="text-sm text-gray-400 text-justify mt-3 w-4/5">Have some coming up event or you need more details? Then reach out we'd love to hear from you and provide help.</p>
                     <div className="mt-8">
                         <h2 style={dancingscript.style} className="text-2xl text-darkgreen font-extrabold">Contacts</h2>
                         <ul className="mt-3">
