@@ -3,9 +3,13 @@ import { poppins } from "@/app/fonts/fonts";
 import GreenSubTitle from "../_components/green_subtitle";
 import GreenTitle from "../_components/green_title";
 import PageBanner from "../_components/page_banner";
-import { FaWandMagicSparkles } from "react-icons/fa6";
+import { FaClockRotateLeft, FaForwardFast, FaRegGem, FaWandMagicSparkles } from "react-icons/fa6";
 import NoImageBanner from "../_components/no_image_banner";
 import FAQ from "../_components/faq";
+import { PiCameraRotateBold, PiClockClockwiseBold, PiLightningBold } from "react-icons/pi";
+import { RiCheckboxMultipleFill } from "react-icons/ri";
+import { SiFastapi } from "react-icons/si";
+import { BsLightning } from "react-icons/bs";
 
 export default function HirePhotographer() {
     let photos = [
@@ -50,44 +54,44 @@ export default function HirePhotographer() {
 
                 <div className="flex my-2 md:w-1/2">
                     <FaWandMagicSparkles className="w-8 h-8 text-green" />
-                    <div className="flex flex-col px-2">
-                        <h2 className="font-bold text-green">Personalised style</h2>
-                        <p className="text-sm">rnelnfln rfnlrnfk rfnkflnf nelnfln rfnlrnfk rfnkfln nelnfln rfnlrnfk rfnkfln </p>
+                    <div className="flex flex-col px-2 w-4/5">
+                        <h2 className="font-bold text-green ">Personalised style</h2>
+                        <p className="text-sm text-justify">The theme of the photoshoot will be arranged based on your request. I will help you set up the decoration and pick the suited props to achieve the look we'll go for.</p>
                     </div>
                 </div>
                 <div className="flex my-2 md:w-1/2">
-                    <FaWandMagicSparkles className="w-8 h-8 text-green" />
-                    <div className="flex flex-col px-2">
+                <PiCameraRotateBold className="w-8 h-8 text-green"/>
+                    <div className="flex flex-col px-2 w-4/5" >
                         <h2 className="font-bold text-green">Clean editing</h2>
-                        <p className="text-sm">rnelnfln rfnlrnfk rfnkflnf nelnfln rfnlrnfk rfnkfln nelnfln rfnlrnfk rfnkfln </p>
+                        <p className="text-sm text-justify">I will deliver the final images clean edited depending on the style of the photoshoot we pick. The initial editing will include exposure adjustments and color correction however photo-manipulation such us subject or structure changes will be applied on demand. </p>
                     </div>
                 </div>
                 <div className="flex my-2 md:w-1/2">
-                    <FaWandMagicSparkles className="w-8 h-8 text-green" />
-                    <div className="flex flex-col px-2">
+                    <FaRegGem  className="w-8 h-8 text-green" />
+                    <div className="flex flex-col px-2 w-4/5">
                         <h2 className="font-bold text-green">Authenticity</h2>
-                        <p className="text-sm">rnelnfln rfnlrnfk rfnkflnf nelnfln rfnlrnfk rfnkfln nelnfln rfnlrnfk rfnkfln</p>
+                        <p className="text-sm text-justify">The main goal for me as a photographer is to show your true personality and values through my pictures. I can promise a light hearted, unique experience that best represents you.</p>
                     </div>
                 </div>
                 <div className="flex  my-2 md:w-1/2">
-                    <FaWandMagicSparkles className="w-8 h-8 text-green" />
-                    <div className="flex flex-col px-2">
+                    <PiClockClockwiseBold   className="w-8 h-8 text-green" />
+                    <div className="flex flex-col px-2 w-4/5">
                         <h2 className="font-bold text-green">Availability</h2>
-                        <p className="text-sm">rnelnfln rfnlrnfk rfnkflnf nelnfln rfnlrnfk rfnkfln nelnfln rfnlrnfk rfnkfln nelnfln rfnlrnfk rfnkfln</p>
+                        <p className="text-sm text-justify">Through scheduling, conceptualizing, prop picking, decoration, shooting and delivering, I will be available for all your requests and questions.  </p>
                     </div>
                 </div>
                 <div className="flex my-2 md:w-1/2">
-                    <FaWandMagicSparkles className="w-8 h-8 text-green" />
-                    <div className="flex flex-col px-2">
+                    <RiCheckboxMultipleFill  className="w-8 h-8 text-green" />
+                    <div className="flex flex-col px-2 w-4/5">
                         <h2 className="font-bold text-green">Multiple packages </h2>
-                        <p className="text-sm">rnelnfln rfnlrnfk rfnkflnf nelnfln rfnlrnfk rfnkfln nelnfln rfnlrnfk rfnkfln </p>
+                        <p className="text-sm text-justify">For each session type, I offer multiple packages based on the number of the delivered pictures, the level of editing, the decoration or the setup options if any. A re-edit option is available for additional charges. </p>
                     </div>
                 </div>
                 <div className="flex my-2 md:w-1/2">
-                    <FaWandMagicSparkles className="w-8 h-8 text-green" />
-                    <div className="flex flex-col px-2">
+                    <PiLightningBold     className="w-8 h-8 text-green" />
+                    <div className="flex flex-col px-2 w-4/5">
                         <h2 className="font-bold text-green">Fast delivery</h2>
-                        <p className="text-sm">rnelnfln rfnlrnfk rfnkflnf nelnfln rfnlrnfk rfnkfln nelnfln rfnlrnfk rfnkfln </p>
+                        <p className="text-sm text-justify">One day after the photoshoot, you can expect to recieve couple of pictures as a sneak peack of the session. Based on the sent pictures, you can expect the same style on the rest of the delivered work.</p>
                     </div>
                 </div>
 
@@ -100,8 +104,6 @@ export default function HirePhotographer() {
             </div>
         </div>
         <NoImageBanner title="For every need and occasion" subtitle="For both individuals and professionals, I'm ready to be part of your project. According to your values and identity, I offer you a set of flexible packages that best fit your needs. I would love to collaborate with you to reach your goals and expectations so I will love to hear from you from the button below." />
-
-
         <FAQ />
 
     </div>
