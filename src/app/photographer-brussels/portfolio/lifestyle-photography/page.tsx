@@ -11,6 +11,7 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
+import PackageCard from "../../_components/package_card";
 
 export default function Lifestyle() {
     const [index, setIndex] = useState(-1);
@@ -126,6 +127,48 @@ export default function Lifestyle() {
             width: 800, height: 600
         },
     ]
+    let packages = [
+        {
+            id: 1,
+            label: "Essential Explorer",
+            description: "Short and Effective Session",
+            price: 50,
+            duration: 20,
+            photos: 5,
+            advanced: false,
+            top_pick: false
+        },
+        {
+            id: 2,
+            label: "SnapMaster Suite",
+            description: "Complete and Dynamic Bundle",
+            price: 75,
+            duration: 30,
+            photos: 10,
+            advanced: false,
+            top_pick: false
+        },
+        {
+            id: 3,
+            label: "Elite Experience",
+            description: "Premium Picture Perfect",
+            price: 150,
+            duration: 60,
+            photos: 15,
+            advanced: false,
+            top_pick: true
+        },
+        {
+            id: 4,
+            label: "FocalPoint Deluxe",
+            description: "High-End Imaging Package",
+            price: 250,
+            duration: 90,
+            photos: 20,
+            advanced: true,
+            top_pick: false
+        },
+    ]
     return (
         <div className="flex flex-col ">
             <PhotoStyleBanner title="Lifestyle photograher in Brussels" imgUrl="/jpg/wedding-portfolio.jpg" />
@@ -147,7 +190,7 @@ export default function Lifestyle() {
                     <img src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-96 w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
-                    <GreenTitle title="Gallery"  />
+                    <GreenTitle title="Gallery" />
 
                     <PhotoAlbum layout="columns"
                         photos={photos}
@@ -178,6 +221,12 @@ export default function Lifestyle() {
                     render={{ slide: ModalJsImage }}
 
                 />
+                <div className="text-center my-16">
+                    <GreenTitle title="My Packages" />
+                    <div className="flex items-center mt-8 w-full justify-center lg:justify-between flex-wrap">
+                        {packages.map((offer) => <PackageCard key={offer.id} card={offer} />)}
+                    </div>
+                </div>
             </div >
         </div>
     )

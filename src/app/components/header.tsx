@@ -59,14 +59,7 @@ export default function Header() {
                             <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/portfolio' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/photographer-brussels/portfolio">Portfolio</Link>
                             <div className={`absolute text-midpink  bg-white  text-sm top-8 z-30 w-[190px]  hidden flex-col py-4 shadow-sm shadow-midpink rounded-md group-hover:flex`}>
 
-                                <Link
-                                    className="  px-4 py-1"
-                                    href='/photographer-brussels/portfolio/wedding-photography'
 
-                                >
-                                    <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
-                                        Wedding Photography
-                                    </span></Link>
                                 <Link
                                     className="  px-4 py-1"
                                     href='/photographer-brussels/portfolio/lifestyle-photography'
@@ -81,6 +74,14 @@ export default function Header() {
                                 >
                                     <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
                                         Product Photography
+                                    </span></Link>
+                                <Link
+                                    className="  px-4 py-1"
+                                    href='/photographer-brussels/portfolio/wedding-photography'
+
+                                >
+                                    <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
+                                        Wedding Photography
                                     </span></Link>
                                 <Link
                                     className="  px-4 py-1"

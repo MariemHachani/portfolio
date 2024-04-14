@@ -1,6 +1,6 @@
 import { PiPhoneCallLight } from "react-icons/pi";
 import PageBanner from "../_components/page_banner";
-import { dancingscript,  poppins } from "@/app/fonts/fonts";
+import { dancingscript, poppins } from "@/app/fonts/fonts";
 import { CiMail } from "react-icons/ci";
 import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 import ContactForm from "../_components/contact_form";
@@ -48,7 +48,12 @@ export default function Page() {
                         <h2 style={dancingscript.style} className="text-2xl text-darkgreen font-extrabold">Socials</h2>
                         <ul className="flex mt-3 space-x-4">
                             <li className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a href="#">
+                                <a href="https://www.instagram.com/mr.shootingphactory/">
+                                    <FiInstagram stroke="#039f9b" size={20} />
+                                </a>
+                            </li>
+                            <li className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                <a href="https://www.facebook.com/Khlifi.R">
                                     <FiFacebook stroke="#039f9b" size={20} />
 
                                 </a>
@@ -59,11 +64,7 @@ export default function Page() {
 
                                 </a>
                             </li>
-                            <li className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a href="#">
-                                    <FiInstagram stroke="#039f9b" size={20} />
-                                </a>
-                            </li>
+
                         </ul>
                     </div>
                 </div>
