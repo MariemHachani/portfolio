@@ -15,7 +15,7 @@ export default function Page() {
                 imgUrl="/jpg/portfolio-banner.jpg" />
 
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col items-center">
-                <h1 style={PlayfairDisplay.style} className="text-green font-bold text-2xl uppercase">Let's discover</h1>
+                <h1 style={PlayfairDisplay.style} className="text-green font-bold text-2xl uppercase">Let&apos;s discover</h1>
                 <h2 style={dancingscript.style} className="text-green text-center font-bold text-2xl ">A very deliberate and stylised images for each session type</h2>
                 <PortfolioCards />
             </div >

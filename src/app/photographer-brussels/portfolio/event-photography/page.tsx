@@ -11,6 +11,7 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
+import Image from "next/image";
 
 export default function Events() {
     const [index, setIndex] = useState(-1);
@@ -115,14 +116,14 @@ export default function Events() {
                         <GreenSubTitle title="My Vision" />
                         <div className=" text-justify mt-6">
 
-                            <p>I'll capture the professionalism, energy, and essence of your ceremonies and events. From candid moments to keynote speeches, every image will reflect your brand's values and narrative. Let me be your visual storyteller, ensuring to share the success and significance of your corporate events. </p>
+                            <p>I&apos;ll capture the professionalism, energy, and essence of your ceremonies and events. From candid moments to keynote speeches, every image will reflect your brand&apos;s values and narrative. Let me be your visual storyteller, ensuring to share the success and significance of your corporate events. </p>
                             <br />
-                            <p>Corporate photos serve as powerful visual assets for marketing materials, websites, annual reports, and social media platforms. That's how I help you in building trust with clients, investors, and stakeholders through my services.</p>
+                            <p>Corporate photos serve as powerful visual assets for marketing materials, websites, annual reports, and social media platforms. That&apos;s how I help you in building trust with clients, investors, and stakeholders through my services.</p>
                         </div>
                     </div>
 
 
-                    <img src="/jpg/event/DSC_0188.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600} src="/jpg/event/DSC_0188.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
                     <GreenTitle title="Gallery" />

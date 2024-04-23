@@ -23,7 +23,7 @@ export default function FAQ() {
                             </span>
                         </summary>
                         <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            I started my photography journey in 2013 as an amateur learning everything about light, composition and subject. I started offering my services in 2017 as a side hustle for clients in different sets from family photoshoots to birthdays and weddings. In 2022, I had worked with corporate clients to cover their events and seminars. I also helped in presenting their services and products. Now I'm working towards making photography my full time job, hoping to meet you along the way.
+                            I started my photography journey in 2013 as an amateur learning everything about light, composition and subject. I started offering my services in 2017 as a side hustle for clients in different sets from family photoshoots to birthdays and weddings. In 2022, I had worked with corporate clients to cover their events and seminars. I also helped in presenting their services and products. Now I&apos;m working towards making photography my full time job, hoping to meet you along the way.
                         </p>
                     </details>
                 </div>
@@ -94,7 +94,7 @@ export default function FAQ() {
                         </summary>
                         <p className="text-neutral-600  mt-3 group-open:animate-fadeIn ">
                             Simply contact me through the <a className="text-green font-bold" href="/photographer-brussels/contact">contact page </a>
-                            or on social media. Please mention the date and the type of session you're interested in so we can start planning accordingly.
+                            or on social media. Please mention the date and the type of session you&apos;re interested in so we can start planning accordingly.
                         </p>
                     </details>
                 </div>

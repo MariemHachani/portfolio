@@ -10,7 +10,7 @@ export default function About() {
                 <p className="pt-8 text-sm ">A photographer that loves to translate feelings into pictures that tell a story. <br />Originally from Tunisia, currently in Belgium, I started practicing photography in my hometown 10 years ago in an organisation where I discovered my passion.
                     The journey began with portrait sessions with friends and evolved to booking bigger events.</p>
                 <p className="pt-8 "><b>Photography is my love language. From weddings, to portrait sessions, product photography and events coverage. <br /> I will love to showcase your story with a touch of my own personality. </b></p>
-                <p className="pt-8 "> I enjoy all aspects of preparing, shooting and editing so I'm looking forward meeting you along the way.</p>
+                <p className="pt-8 "> I enjoy all aspects of preparing, shooting and editing so I&apos;m looking forward meeting you along the way.</p>
             </div>
         </div>
     )
