@@ -11,6 +11,7 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
+import Image from "next/image";
 
 export default function Products() {
     const [index, setIndex] = useState(-1);
@@ -41,7 +42,7 @@ export default function Products() {
             alt: "dd",
             width: 4303, height: 2850
         },
-        
+
         {
             id: 8,
             src: "/jpg/product/DSC_0044.jpg",
@@ -93,12 +94,12 @@ export default function Products() {
 
                             <p>My photos will embody your brand&apos;s essence by maintaining a consistent visual style and telling stories that align with your values. Whether it&apos;s through the use of specific colors, lighting techniques, compositions, or editing styles I do what it takes to provide product photos that reflect your brand&apos;s unique aesthetic.</p>
                             <br />
-                            <p>I use photography to convey authenticity, transparency, and connection with the target audience. I will showcase how the product fits into the customer's everyday life and how it aligns with their aspirations.</p>
+                            <p>I use photography to convey authenticity, transparency, and connection with the target audience. I will showcase how the product fits into the customer&apos;s everyday life and how it aligns with their aspirations.</p>
                         </div>
                     </div>
 
 
-                    <img src="/jpg/product/DSC_0044.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600} src="/jpg/product/DSC_0044.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
                     <GreenTitle title="Gallery" />
