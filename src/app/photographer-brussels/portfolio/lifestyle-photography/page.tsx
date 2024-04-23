@@ -32,100 +32,65 @@ export default function Lifestyle() {
     let photos = [
         {
             id: 1,
-            src: "https://source.unsplash.com/bYuI23mnmDQ",
+            src: "/jpg/lifestyle/DSC06880.jpg",
             alt: "dd",
-            width: 1600, height: 900
-        },
-        {
-            id: 2,
-            src: "https://source.unsplash.com/lp40q07DIe0",
-            alt: "dd",
-            width: 800, height: 600
-        },
-        {
-            id: 3,
-            src: "https://source.unsplash.com/wfalq01jJuU",
-            alt: "dd",
-            width: 800, height: 600
-        },
-        {
-            id: 4,
-            src: "https://source.unsplash.com/rMHNK_skwwU",
-            alt: "dd",
-            width: 850, height: 1000
-        },
-        {
-            id: 5,
-            src: "https://source.unsplash.com/Nllx4R-2c3o",
-            alt: "dd",
-            width: 800, height: 600
-        },
-        {
-            id: 6,
-            src: "https://source.unsplash.com/WBMjuGpbrCQ",
-            alt: "dd",
-            width: 800, height: 600
-        },
-        {
-            id: 7,
-            src: "https://source.unsplash.com/nCUZ5BYBL_o",
-            alt: "dd",
-            width: 800, height: 600
-        },
-        {
-            id: 8,
-            src: "https://source.unsplash.com/3u4fzMQZhjc",
-            alt: "dd",
-            width: 800, height: 600
+            width: 4000, height: 6000
         },
         {
             id: 9,
-            src: "https://source.unsplash.com/haOIqIPSwps",
+            src: "/jpg/lifestyle/DSC00360.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 1280, height: 1920
         },
         {
             id: 10,
-            src: "https://source.unsplash.com/3UrYD7NNVxk",
+            src: "/jpg/lifestyle/DSC_1446.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 4582, height: 3035
         },
         {
-            id: 11,
-            src: "https://source.unsplash.com/fm1JKDItlVM",
+            id: 2,
+            src: "/jpg/lifestyle/DSC06818.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 3921, height: 5882
         },
         {
-            id: 12,
-            src: "https://source.unsplash.com/qPpq1EVs8vw",
+            id: 3,
+            src: "/jpg/lifestyle/DSC06693.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 3375, height: 5063
         },
         {
-            id: 13,
-            src: "https://source.unsplash.com/xRyL63AwZFE",
+            id: 4,
+            src: "/jpg/lifestyle/DSC06493.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 4000, height: 6000
         },
         {
-            id: 14,
-            src: "https://source.unsplash.com/XeNKWTiCPNw",
+            id: 5,
+            src: "/jpg/lifestyle/DSC06513.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 3740, height: 5610
         },
         {
-            id: 15,
-            src: "https://source.unsplash.com/DFt3T5r_4FE",
+            id: 6,
+            src: "/jpg/lifestyle/DSC_0085.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 4928, height: 3264
         },
         {
-            id: 16,
-            src: "https://source.unsplash.com/Ebwp2-6BG8E",
+            id: 7,
+            src: "/jpg/lifestyle/DSC_0070.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 2900, height: 4378
         },
+        {
+            id: 8,
+            src: "/jpg/lifestyle/DSC_0545.jpg",
+            alt: "dd",
+            width: 3264, height: 4928
+        },
+
     ]
     let packages = [
         {
@@ -171,7 +136,7 @@ export default function Lifestyle() {
     ]
     return (
         <div className="flex flex-col ">
-            <PhotoStyleBanner title="Lifestyle photograher in Brussels" imgUrl="/jpg/wedding-portfolio.jpg" />
+            <PhotoStyleBanner title="Lifestyle photograher in Brussels" imgUrl="/jpg/lifestyle/DSC06513.jpg" />
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="flex flex-col md:flex-row justify-between ">
                     <div className="flex flex-col w-full md:w-2/5  mr-8">
@@ -187,7 +152,7 @@ export default function Lifestyle() {
                     </div>
 
 
-                    <img src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
+                    <img src="/jpg/lifestyle/DSC00360.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
                     <GreenTitle title="Gallery" />
@@ -221,7 +186,7 @@ export default function Lifestyle() {
                     render={{ slide: ModalJsImage }}
 
                 />
-                
+
                 {/* <div className="text-center my-16">
                     <GreenTitle title="My Packages" />
                     <div className="flex items-center mt-8 w-full justify-center lg:justify-between flex-wrap">

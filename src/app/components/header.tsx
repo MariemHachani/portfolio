@@ -42,20 +42,22 @@ export default function Header() {
         "hidden";
     return (
         <div className='sticky top-0 z-50 h-16' style={{
-            backgroundColor: navColor,
+            background: navColor,
             boxShadow: shadow,
             color: textColor,
             transition: "ease-in-out 0.25s"
         }}>
             <div className=" sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-8 py-1 md:py-2 flex justify-between items-center  " >
-                <div className="flex flex-col items-center text-sm md:text-base leading-none">
+                <div className="flex flex-col items-center text-sm md:text-base leading-none drop-shadow-lg">
                     <a href="/" style={PlayfairDisplay.style}>Mariem Hachani</a>
                     <div style={dancingscript.style} className='tracking-wider'>
                         {pathname.includes("photographer-brussels") ? <span >Photography</span> : pathname.includes("logical") ? <span>WebDev</span> : <span className='hidden'>Keep space</span>}</div>
                 </div>
-                <div className='flex text-base md:text-lg' style={poppins.style}>
+                <div className='flex text-base md:text-lg drop-shadow-lg' style={poppins.style}>
                     {pathname.includes("photographer-brussels") ? (<>
+                        <Link className={`mx-2 pb-0.5 cursor-pointer  border-b-2 border-transparent  ${pathname === '/' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/photographer-brussels/">Welcome</Link>
                         <div className="group relative">
+
                             <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/portfolio' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/photographer-brussels/portfolio">Portfolio</Link>
                             <div className={`absolute text-midpink  bg-white  text-sm top-8 z-30 w-[190px]  hidden flex-col py-4 shadow-sm shadow-midpink rounded-md group-hover:flex`}>
 
@@ -97,7 +99,7 @@ export default function Header() {
 
                         </div>
 
-                        <div className="group relative ">
+                        {/* <div className="group relative ">
                             <Link
                                 className={` mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent ${isOpen ? '! border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `}
                                 href='/photographer-brussels/services'
@@ -123,7 +125,7 @@ export default function Header() {
                                     </span></Link>
 
                             </div>
-                        </div>
+                        </div> */}
                         <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/my-brand' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/photographer-brussels/hire-photographer">Why hire me?</Link>
                         {/*                         <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/pricing' ? ' !border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/pricing">Pricing</Link>
  */}                    </>) :

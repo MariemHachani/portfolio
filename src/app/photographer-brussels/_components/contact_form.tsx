@@ -45,16 +45,16 @@ export default function ContactForm() {
                 <h2 style={dancingscript.style} className="mt-8 sm:mt-0 text-2xl text-left sm:hidden text-darkgreen font-extrabold">Message</h2>
 
                 <input type='text' placeholder='Name'
-                    className="w-full py-2.5 px-4 border rounded-md text-sm outline-green"
+                    className="w-full py-2.5 px-4 border border-green rounded-md text-sm outline-green"
                     {...register('name', { required: true })} />
                 <input type='email' placeholder='Email'
-                    className="w-full  py-2.5 px-4 border  rounded-md text-sm outline-green"
+                    className="w-full  py-2.5 px-4 border border-green rounded-md text-sm outline-green"
                     {...register('email', { required: true })} />
                 <input type='text' placeholder='Subject'
-                    className="w-full py-2.5 px-4 border rounded-md text-sm outline-green"
+                    className="w-full py-2.5 px-4 border border-green rounded-md text-sm outline-green"
                     {...register('subject', { required: true })} />
                 <textarea placeholder='Message' rows={6}
-                    className="w-full  px-4 border rounded-md text-sm pt-2.5 outline-green"
+                    className="w-full  px-4 border border-green rounded-md text-sm pt-2.5 outline-green"
                     {...register('message', { required: true })} ></textarea>
                 <button type='submit'
                     className="text-white bg-green hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
