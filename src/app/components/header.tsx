@@ -99,7 +99,7 @@ export default function Header() {
 
                         </div>
 
-                        {/* <div className="group relative ">
+                         <div className="group relative ">
                             <Link
                                 className={` mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent ${isOpen ? '! border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `}
                                 href='/photographer-brussels/services'
@@ -125,7 +125,7 @@ export default function Header() {
                                     </span></Link>
 
                             </div>
-                        </div> */}
+                        </div>
                         <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/my-brand' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/photographer-brussels/hire-photographer">Why hire me?</Link>
                         {/*                         <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/pricing' ? ' !border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/pricing">Pricing</Link>
  */}                    </>) :

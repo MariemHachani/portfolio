@@ -2,6 +2,7 @@ import { PlayfairDisplay, poppins } from "@/app/fonts/fonts";
 import Link from "next/link";
 import { useRef } from "react";
 import { useIsVisible } from "../_components/utils/element-visibility";
+import Image from "next/image";
 
 export default function Product() {
     const ref1 = useRef<HTMLInputElement>(null);
@@ -18,7 +19,7 @@ export default function Product() {
                 </div>
             </div>
             <div className="flex-1 order-first md:order-last">
-                <img className="object-cover h-full w-full" src="/jpg/product-photoshoot.jpg" alt=""></img>
+                <Image height={500} width={500} className="object-cover h-full w-full" src="/jpg/product-photoshoot.jpg" alt=""></Image>
             </div>
         </div>
     )

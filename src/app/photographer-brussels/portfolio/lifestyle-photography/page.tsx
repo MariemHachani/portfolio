@@ -12,6 +12,7 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import PackageCard from "../../_components/package_card";
+import Image from "next/image";
 
 export default function Lifestyle() {
     const [index, setIndex] = useState(-1);
@@ -145,14 +146,14 @@ export default function Lifestyle() {
                         <GreenSubTitle title="My Vision" />
                         <div className=" text-justify mt-6">
 
-                            <p>As an introverted photographer my lens captures the warmth of fleeting moments with an intimacy that words often fail to convey. Whether it's for a calm day alone, a fun day between friends, to capture your child growing, or you're a couple who want to celebrate their love, I invite you to pause, to linger in the moment.</p>
+                            <p>As an introverted photographer my lens captures the warmth of fleeting moments with an intimacy that words often fail to convey. Whether it&apos;s for a calm day alone, a fun day between friends, to capture your child growing, or you&apos;re a couple who want to celebrate their love, I invite you to pause, to linger in the moment.</p>
                             <br />
                             <p>Because beauty can be found in the simplest of moments, I capture the essence of a scene or subject without embellishment or manipulation, allowing the viewer to connect with the raw truth of the image.</p>
                         </div>
                     </div>
 
 
-                    <img src="/jpg/lifestyle/DSC00360.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600} src="/jpg/lifestyle/DSC00360.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
                     <GreenTitle title="Gallery" />

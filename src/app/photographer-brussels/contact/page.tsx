@@ -16,8 +16,8 @@ export default function Page() {
             <div style={poppins.style} className="my-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col sm:flex-row items-center text-center">
 
                 <div className="text-left ">
-                    <h1 style={dancingscript.style} className="text-3xl text-darkgreen font-extrabold">Let's Talk</h1>
-                    <p className="text-sm text-gray-400 text-justify mt-3 w-4/5">Have some coming up event or you need more details? Then reach out we'd love to hear from you and provide help.</p>
+                    <h1 style={dancingscript.style} className="text-3xl text-darkgreen font-extrabold">Let&apos;s Talk</h1>
+                    <p className="text-sm text-gray-400 text-justify mt-3 w-4/5">Have some coming up event or you need more details? Then reach out we&apos;d love to hear from you and provide help.</p>
                     <div className="mt-8">
                         <h2 style={dancingscript.style} className="text-2xl text-darkgreen font-extrabold">Contacts</h2>
                         <ul className="mt-3">

@@ -91,7 +91,7 @@ export default function Products() {
                         <GreenSubTitle title="My Vision" />
                         <div className=" text-justify mt-6">
 
-                            <p>My photos will embody your brand's essence by maintaining a consistent visual style and telling stories that align with your values. Whether it's through the use of specific colors, lighting techniques, compositions, or editing styles I do what it takes to provide product photos that reflect your brand's unique aesthetic.</p>
+                            <p>My photos will embody your brand&apos;s essence by maintaining a consistent visual style and telling stories that align with your values. Whether it&apos;s through the use of specific colors, lighting techniques, compositions, or editing styles I do what it takes to provide product photos that reflect your brand&apos;s unique aesthetic.</p>
                             <br />
                             <p>I use photography to convey authenticity, transparency, and connection with the target audience. I will showcase how the product fits into the customer's everyday life and how it aligns with their aspirations.</p>
                         </div>

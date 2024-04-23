@@ -2,7 +2,7 @@ export default function GalleryItem() {
     return (
         <div className="container mx-auto mt-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="grid gap-4">
+               {/*  <div className="grid gap-4">
                     <div>
                         <img
                             className="h-auto max-w-full rounded-lg"
@@ -93,7 +93,7 @@ export default function GalleryItem() {
                             alt=""
                         />
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

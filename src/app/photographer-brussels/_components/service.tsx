@@ -1,4 +1,5 @@
 import { PlayfairDisplay, poppins } from "@/app/fonts/fonts";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Services() {
@@ -7,7 +8,7 @@ export default function Services() {
             <h2 style={PlayfairDisplay.style} className="text-2xl text-green uppercase">My services</h2>
             <div className="flex py-8 flex-col md:flex-row ">
                 <div className="flex-1 relative my-2 md:mr-2 flex">
-                    <img className="object-cover h-96 w-full" src="/jpg/shooting.jpg" alt="event-photograhy"></img>
+                    <Image height={500} width={500} className="object-cover h-96 w-full" src="/jpg/shooting.jpg" alt="event-photograhy"></Image>
                     <div style={poppins.style} className="absolute bottom-0 pt-4 pb-8 bg-midpink-extra text-center w-full ">
                         <p className="text-white uppercase font-bold text-xl pb-4">Shooting</p>
                         <Link href="/photographer-brussels/services/photoshoots"
@@ -15,7 +16,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div className="flex-1 relative my-2 md:ml-2 flex ">
-                    <img className="object-cover h-96 w-full" src="/jpg/editing.jpg" alt="event-photograhy"></img>
+                    <Image height={500} width={500} className="object-cover h-96 w-full" src="/jpg/editing.jpg" alt="event-photograhy"></Image>
                     <div style={poppins.style} className="absolute bottom-0 pt-4 pb-8 bg-midpink-extra text-center w-full ">
                         <p className="text-white uppercase font-bold text-xl pb-4">Editing</p>
                         <Link href="/photographer-brussels/services/editing"

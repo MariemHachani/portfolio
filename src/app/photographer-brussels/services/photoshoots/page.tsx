@@ -4,6 +4,7 @@ import GreenTitle from "../../_components/green_title";
 import PhotoStyleBanner from "../../_components/photography_style_banner";
 import PortfolioCards from "../../_components/portfolio-cards";
 import NoImageBanner from "../../_components/no_image_banner";
+import Image from "next/image";
 
 export default function Photoshoot() {
     return (
@@ -11,7 +12,7 @@ export default function Photoshoot() {
             <PhotoStyleBanner title="Wedding photograher in Brussels" imgUrl="/jpg/wedding-portfolio.jpg" />
             <div style={poppins.style} className=" sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="mt-8 flex flex-col md:flex-row justify-between ">
-                    <img src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover mr-8 h-60 md:h-96  object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600} src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover mr-8 h-60 md:h-96  object-cover bg-center bg-no-repeat" />
                     <div className="flex flex-col w-full md:w-3/5 pt-8 md:pt-0 ">
                         <GreenSubTitle title="My Story" />
                         <GreenTitle title="Wedding Photography" />
@@ -49,7 +50,7 @@ export default function Photoshoot() {
                             </div>
                         </div>
                     </div>
-                    <img src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-96  object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600} src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-96  object-cover bg-center bg-no-repeat" />
 
 
                 </div>
