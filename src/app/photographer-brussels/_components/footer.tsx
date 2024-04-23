@@ -20,8 +20,13 @@ export default function Footer() {
                 <Link href={"/photographer-brussels/contact"}>Contact</Link>
 
                 <ul className="flex mt-3 space-x-4">
+                    <li className=" shrink-0">
+                        <a href="https://www.instagram.com/mr.shootingphactory/" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center">
+                            <FiInstagram stroke="#039f9b" size={20} />
+                        </a>
+                    </li>
                     <li className="shrink-0">
-                        <a href="#" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center ">
+                        <a href="https://www.facebook.com/Khlifi.R" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center ">
                             <FiFacebook stroke="#039f9b" size={20} />
 
                         </a>
@@ -32,11 +37,7 @@ export default function Footer() {
 
                         </a>
                     </li>
-                    <li className=" shrink-0">
-                        <a href="#" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center">
-                            <FiInstagram stroke="#039f9b" size={20} />
-                        </a>
-                    </li>
+
                 </ul>
 
             </div>

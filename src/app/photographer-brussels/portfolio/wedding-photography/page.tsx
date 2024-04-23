@@ -134,20 +134,20 @@ export default function Weddings() {
                     <div className="flex flex-col w-full md:w-2/5  mr-8">
                         <GreenTitle title="Wedding Photography" />
 
-                        <GreenSubTitle title="My Story" />
-                        <div className=" text-justify">
+                        <GreenSubTitle title="My Vision" />
+                        <div className=" text-justify mt-6">
 
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, aliquam? Consequatur illum eveniet delectus, soluta vero est labore voluptatum nostrum, eum sequi ab ipsum aliquid unde? Minima quaerat totam eum.</p>
+                            <p>Why I love working on weddings? It's all about love! I love sharing the authentic moments, a day of intense feelings and eternel memories! I focus on details, authenticity and genuine emotions. Capturing the raw beauty of unguarded moments like little interactions with the people you love, I find warmth in the special moments of your wedding day. </p>
                             <br />
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, aliquam? Consequatur illum eveniet delectus, soluta vero est labore voluptatum nostrum, eum sequi ab ipsum aliquid unde? Minima quaerat totam eum.</p>
+                            <p>My goal is to provide you with photographs that evoke joyful reminiscences. I craft timeless, refined images for you to treasure eternally with care and attention.</p>
                         </div>
                     </div>
 
 
-                    <img src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-96 w-full object-cover bg-center bg-no-repeat" />
+                    <img src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
-                    <GreenTitle title="Gallery"  />
+                    <GreenTitle title="Gallery" />
 
                     <PhotoAlbum layout="columns"
                         photos={photos}
