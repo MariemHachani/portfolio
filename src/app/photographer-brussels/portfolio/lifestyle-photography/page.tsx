@@ -175,19 +175,19 @@ export default function Lifestyle() {
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="flex flex-col md:flex-row justify-between ">
                     <div className="flex flex-col w-full md:w-2/5  mr-8">
-                        <GreenTitle title="Wedding Photography" />
+                        <GreenTitle title="Lifestyle Photography" />
 
-                        <GreenSubTitle title="My Story" />
-                        <div className=" text-justify">
+                        <GreenSubTitle title="My Vision" />
+                        <div className=" text-justify mt-6">
 
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, aliquam? Consequatur illum eveniet delectus, soluta vero est labore voluptatum nostrum, eum sequi ab ipsum aliquid unde? Minima quaerat totam eum.</p>
+                            <p>As an introverted photographer my lens captures the warmth of fleeting moments with an intimacy that words often fail to convey. Whether it's for a calm day alone, a fun day between friends, to capture your child growing, or you're a couple who want to celebrate their love, I invite you to pause, to linger in the moment.</p>
                             <br />
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, aliquam? Consequatur illum eveniet delectus, soluta vero est labore voluptatum nostrum, eum sequi ab ipsum aliquid unde? Minima quaerat totam eum.</p>
+                            <p>Because beauty can be found in the simplest of moments, I capture the essence of a scene or subject without embellishment or manipulation, allowing the viewer to connect with the raw truth of the image.</p>
                         </div>
                     </div>
 
 
-                    <img src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-96 w-full object-cover bg-center bg-no-repeat" />
+                    <img src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
                     <GreenTitle title="Gallery" />
@@ -221,12 +221,13 @@ export default function Lifestyle() {
                     render={{ slide: ModalJsImage }}
 
                 />
-                <div className="text-center my-16">
+                
+                {/* <div className="text-center my-16">
                     <GreenTitle title="My Packages" />
                     <div className="flex items-center mt-8 w-full justify-center lg:justify-between flex-wrap">
                         {packages.map((offer) => <PackageCard key={offer.id} card={offer} />)}
                     </div>
-                </div>
+                </div> */}
             </div >
         </div>
     )

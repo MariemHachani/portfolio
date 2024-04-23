@@ -128,23 +128,23 @@ export default function Products() {
     ]
     return (
         <div className="flex flex-col ">
-            <PhotoStyleBanner title="Lifestyle photograher in Brussels" imgUrl="/jpg/wedding-portfolio.jpg" />
+            <PhotoStyleBanner title="Product photograher in Brussels" imgUrl="/jpg/wedding-portfolio.jpg" />
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="flex flex-col md:flex-row justify-between ">
                     <div className="flex flex-col w-full md:w-2/5  mr-8">
-                        <GreenTitle title="Wedding Photography" />
+                        <GreenTitle title="Product Photography" />
 
-                        <GreenSubTitle title="My Story" />
-                        <div className=" text-justify">
+                        <GreenSubTitle title="My Vision" />
+                        <div className=" text-justify mt-6">
 
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, aliquam? Consequatur illum eveniet delectus, soluta vero est labore voluptatum nostrum, eum sequi ab ipsum aliquid unde? Minima quaerat totam eum.</p>
+                            <p>My photos will embody your brand's essence by maintaining a consistent visual style and telling stories that align with your values. Whether it's through the use of specific colors, lighting techniques, compositions, or editing styles I do what it takes to provide product photos that reflect your brand's unique aesthetic.</p>
                             <br />
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, aliquam? Consequatur illum eveniet delectus, soluta vero est labore voluptatum nostrum, eum sequi ab ipsum aliquid unde? Minima quaerat totam eum.</p>
+                            <p>I use photography to convey authenticity, transparency, and connection with the target audience. I will showcase how the product fits into the customer's everyday life and how it aligns with their aspirations.</p>
                         </div>
                     </div>
 
 
-                    <img src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-96 w-full object-cover bg-center bg-no-repeat" />
+                    <img src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
                     <GreenTitle title="Gallery" />
