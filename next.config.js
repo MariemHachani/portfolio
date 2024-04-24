@@ -7,7 +7,10 @@ const nextConfig = {
         taint: true, //prevent sensitive data from being exposed to the client
       },
       images:{
-        domains: [ 'source.unsplash.com']
+        domains: [ 'source.unsplash.com'],
+        loader: 'custom',
+        loaderFile: './src/app/api/loader.tsx',
+      
       }
 }
 
