@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    basePath: "/portfolio",
+    output: "export",
     experimental: {
         serverActions: {
           allowedOrigins: ['my-proxy.com', '*.my-proxy.com'],
@@ -8,8 +10,8 @@ const nextConfig = {
       },
       images:{
         domains: [ 'source.unsplash.com'],
-        loader: 'custom',
-        loaderFile: './src/app/api/loader.tsx',
+        //loader: 'custom',
+        //loaderFile: './src/app/api/loader.tsx',
       
       }
 }
