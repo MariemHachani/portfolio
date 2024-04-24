@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/portfolio",
+    //basePath: "/portfolio",
     output: "export",
     experimental: {
         serverActions: {
@@ -10,8 +10,8 @@ const nextConfig = {
       },
       images:{
         domains: [ 'source.unsplash.com'],
-        //loader: 'custom',
-        //loaderFile: './src/app/api/loader.tsx',
+        loader: 'custom',
+        loaderFile: './src/app/api/loader.tsx',
       
       }
 }
