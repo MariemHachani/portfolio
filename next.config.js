@@ -9,7 +9,7 @@ const nextConfig = {
       images:{
         domains: [ 'source.unsplash.com'],
         loader: 'custom',
-        loaderFile: './my/image/loader.js',
+        loaderFile: './src/app/api/loader.tsx',
       
       }
 }
