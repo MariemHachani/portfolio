@@ -11,7 +11,7 @@ export default function Page() {
 
             <PageBanner title="Available photographer for your questions"
                 subtitle="Tell me about your session needs, availabilities and any other information from the from below"
-                imgUrl="../jpg/portfolio-banner.jpg" />
+                imgUrl="./jpg/portfolio-banner.jpg" />
 
             <div style={poppins.style} className="my-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col sm:flex-row items-center text-center">
 

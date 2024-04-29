@@ -12,6 +12,7 @@ import Footer from "./_components/footer"
 import NoImageBanner from "./_components/no_image_banner"
 import Link from "next/link"
 import ImageCallToAction from "./_components/image_banner_call_to_action"
+import Image from "next/image"
 
 export default function Page() {
   useEffect(() => {
@@ -21,10 +22,17 @@ export default function Page() {
   return (
     <div className="flex flex-col ">
 
-      <div className="-mt-16 bg-cover bg-fixed bg-center bg-no-repeat " style={{ backgroundImage: "url(./jpg/wedding-shooting.jpg)" }}>
-        <div className="mt-96  bg-white">
-          <About />
+      <div className="relative -mt-16 w-full h-96" style={{
+        clipPath: 'inset(0 0 0 0)',
+      }} >
+        <div className="fixed h-full w-full top-0 left-0 ">
+          <Image priority objectFit="cover" style={{ 	backgroundPosition: "center"}} fill alt="page_banner" src="./jpg/wedding-shooting.jpg"></Image>
         </div>
+      </div>
+
+
+      <div className="mt-20 bg-white">
+        <About />
       </div>
       <NoImageBanner title="Need a photograher?" subtitle="I'm here to help you out! Being part of your project for me would mean dedicating all the ressources needed to fulfill your exectations, to share your values and be fully involved in your event. From weddings,  portrait sessions, product commercials to events, with a touch of my own character I will love to showcase your story." />
 

@@ -32,82 +32,82 @@ export default function Events() {
     let photos = [
         {
             id: 1,
-            src: "../../jpg/event/DSC_0013.jpg",
+            src: "./jpg/event/DSC_0013.jpg",
             alt: "dd",
             width: 4888, height: 3238
         },
 
         {
             id: 3,
-            src: "../../jpg/event/DSC_0096.jpg",
+            src: "./jpg/event/DSC_0096.jpg",
             alt: "dd",
             width: 4668, height: 3092
         },
         {
             id: 2,
-            src: "../../jpg/event/DSC_0066.jpg",
+            src: "./jpg/event/DSC_0066.jpg",
             alt: "dd",
             width: 3050, height: 4605
         },
         {
             id: 4,
-            src: "../../jpg/event/DSC_0219.jpg",
+            src: "./jpg/event/DSC_0219.jpg",
             alt: "dd",
             width: 3264, height: 4928
         },
         {
             id: 5,
-            src: "../../jpg/event/DSC04637.jpg",
+            src: "./jpg/event/DSC04637.jpg",
             alt: "dd",
             width: 5688, height: 3792
         },
         {
             id: 6,
-            src: "../../jpg/event/DSC04662.jpg",
+            src: "./jpg/event/DSC04662.jpg",
             alt: "dd",
             width: 3839, height: 5759
         },
         
         {
             id: 8,
-            src: "../../jpg/event/DSC05102.jpg",
+            src: "./jpg/event/DSC05102.jpg",
             alt: "dd",
             width: 5804, height: 3869
         },
         {
             id: 7,
-            src: "../../jpg/event/DSC05061.jpg",
+            src: "./jpg/event/DSC05061.jpg",
             alt: "dd",
             width: 4000, height: 6000
         },
         {
             id: 9,
-            src: "../../jpg/event/DSC05766.jpg",
+            src: "./jpg/event/DSC05766.jpg",
             alt: "dd",
             width: 3727, height: 5590
         },
         {
             id: 11,
-            src: "../../jpg/event/DSC05820.jpg",
+            src: "./jpg/event/DSC05820.jpg",
             alt: "dd",
             width: 3883, height: 5825
         },
         {
             id: 12,
-            src: "../../jpg/event/DSC05884.jpg",
+            src: "./jpg/event/DSC05884.jpg",
             alt: "dd",
             width: 3311, height: 4966
         },
         {
             id: 10,
-            src: "../../jpg/event/DSC05810.jpg",
+            src: "./jpg/event/DSC05810.jpg",
             alt: "dd",
             width: 5851, height: 3901
         },
     ]
     return (
         <div className="flex flex-col ">
-            <PhotoStyleBanner title="Events photograher in Brussels" imgUrl="../../jpg/event/DSC05810.jpg" />
+            <PhotoStyleBanner title="Events photograher in Brussels" imgUrl="./jpg/event/DSC05810.jpg" />
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="flex flex-col md:flex-row justify-between ">
                     <div className="flex flex-col w-full md:w-2/5  mr-8">
@@ -123,7 +123,7 @@ export default function Events() {
                     </div>
 
 
-                    <Image height={600} width={600} src="../../jpg/event/DSC_0188.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600} src="./jpg/event/DSC_0188.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
                     <GreenTitle title="Gallery" />
