@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     //basePath: "/portfolio",
-    //output: "export",
+    output: "export",
     experimental: {
         serverActions: {
           allowedOrigins: ['my-proxy.com', '*.my-proxy.com'],
