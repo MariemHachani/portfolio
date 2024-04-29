@@ -21,7 +21,7 @@ export default function Page() {
   return (
     <div className="flex flex-col ">
 
-      <div className="-mt-16 bg-cover bg-fixed bg-center bg-no-repeat " style={{ backgroundImage: "url(/jpg/wedding-shooting.jpg)" }}>
+      <div className="-mt-16 bg-cover bg-fixed bg-center bg-no-repeat " style={{ backgroundImage: "url(./jpg/wedding-shooting.jpg)" }}>
         <div className="mt-96  bg-white">
           <About />
         </div>
