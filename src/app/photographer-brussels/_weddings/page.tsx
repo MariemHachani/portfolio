@@ -20,7 +20,7 @@ export default function Wedding() {
                 </div>
             </div>
             <div className="flex-1 h-96 order-first md:order-last">
-                <Image height={500} width={500} className="object-cover h-full w-full" src="/jpg/wedding-photoshoot.jpg" alt=""></Image>
+                <Image height={500} width={500} className="object-cover h-full w-full" src="jpg/wedding-photoshoot.jpg" alt=""></Image>
             </div>
         </div>
     )
