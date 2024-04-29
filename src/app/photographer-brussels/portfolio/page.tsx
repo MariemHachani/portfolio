@@ -12,7 +12,7 @@ export default function Page() {
 
             <PageBanner title="My portfolio as a photographer"
                 subtitle="My services are aimed at both private and professional clients. Here is an overview of my portfolio."
-                imgUrl="/jpg/portfolio-banner.jpg" />
+                imgUrl=".././jpg/portfolio-banner.jpg" />
 
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col items-center">
                 <h1 style={PlayfairDisplay.style} className="text-green font-bold text-2xl uppercase">Let&apos;s discover</h1>
@@ -20,7 +20,7 @@ export default function Page() {
                 <PortfolioCards />
             </div >
             <NoImageBanner title="Need a photograher?" subtitle="I'm here to help you out! Being part of your project for me would mean dedicating all the ressources needed to fulfill your exectations, to share your values and be fully involved in your event. From weddings, portrait sessions, product commercials to events, with a touch of my own character I will love to showcase your story." />
-            
+
         </div >
     )
 }
