@@ -10,7 +10,7 @@ export default function Lifestyle() {
     return (
         <div ref={ref1} className={`flex flex-col md:flex-row my-2 py-4 h-fit transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
             <div className="flex-1 h-96">
-                <Image height={500} width={500} className="object-cover h-full w-full" src="./jpg/lifestyle-photoshoot.jpg" alt="lifestyle-photograhy"></Image>
+                <Image height={500} width={500} className="object-cover h-full w-full" src="/jpg/lifestyle-photoshoot.jpg" alt="lifestyle-photograhy"></Image>
             </div>
             <div className="flex-1">
                 <div className="md:pl-16 mt-4 md:mt-0">
