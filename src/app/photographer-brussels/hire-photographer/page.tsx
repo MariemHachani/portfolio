@@ -41,7 +41,7 @@ export default function HirePhotographer() {
     return <div className="flex flex-col ">
         <PageBanner title="Why Hire Me?"
             subtitle="You deserve to understand what you'll be getting as my client and to know If we are a good match."
-            imgUrl="../jpg/portfolio-banner.jpg" />
+            imgUrl="./jpg/portfolio-banner.jpg" />
         <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col items-center">
             <GreenTitle title="More than a service" />
 
