@@ -21,7 +21,7 @@ export default function Page() {
   return (
     <div className="flex flex-col ">
 
-      <div className="-mt-16 bg-cover bg-fixed bg-center bg-no-repeat " style={{ backgroundImage: "url(/jpg/wedding-shooting.jpg)" }}>
+      <div className="-mt-16 bg-cover bg-fixed bg-center bg-no-repeat " style={{ backgroundImage: "url(./jpg/wedding-shooting.jpg)" }}>
         <div className="mt-96  bg-white">
           <About />
         </div>
@@ -35,7 +35,7 @@ export default function Page() {
         <Events />
       </div>
       <Services />
-      
+
       <ImageCallToAction title="Need a photograher?" subtitle="For individuals and professionals, I offer you my services as a photographer. I would love to be part of your project for that I'm ready to dedicate all the ressources needed to fulfill your exectations, to share your values and be fully involved in your event. " url="/photographer-brussels/contact" />
     </div>
   )
