@@ -33,61 +33,61 @@ export default function Lifestyle() {
     let photos = [
         {
             id: 1,
-            src: "./jpg/lifestyle/DSC06880.jpg",
+            src: "../../jpg/lifestyle/DSC06880.jpg",
             alt: "dd",
             width: 4000, height: 6000
         },
         {
             id: 9,
-            src: "./jpg/lifestyle/DSC00360.jpg",
+            src: "../../jpg/lifestyle/DSC00360.jpg",
             alt: "dd",
             width: 1280, height: 1920
         },
         {
             id: 10,
-            src: "./jpg/lifestyle/DSC_1446.jpg",
+            src: "../../jpg/lifestyle/DSC_1446.jpg",
             alt: "dd",
             width: 4582, height: 3035
         },
         {
             id: 2,
-            src: "./jpg/lifestyle/DSC06818.jpg",
+            src: "../../jpg/lifestyle/DSC06818.jpg",
             alt: "dd",
             width: 3921, height: 5882
         },
         {
             id: 3,
-            src: "./jpg/lifestyle/DSC06693.jpg",
+            src: "../../jpg/lifestyle/DSC06693.jpg",
             alt: "dd",
             width: 3375, height: 5063
         },
         {
             id: 4,
-            src: "./jpg/lifestyle/DSC06493.jpg",
+            src: "../../jpg/lifestyle/DSC06493.jpg",
             alt: "dd",
             width: 4000, height: 6000
         },
         {
             id: 5,
-            src: "./jpg/lifestyle/DSC06513.jpg",
+            src: "../../jpg/lifestyle/DSC06513.jpg",
             alt: "dd",
             width: 3740, height: 5610
         },
         {
             id: 6,
-            src: "./jpg/lifestyle/DSC_0085.jpg",
+            src: "../../jpg/lifestyle/DSC_0085.jpg",
             alt: "dd",
             width: 4928, height: 3264
         },
         {
             id: 7,
-            src: "./jpg/lifestyle/DSC_0070.jpg",
+            src: "../../jpg/lifestyle/DSC_0070.jpg",
             alt: "dd",
             width: 2900, height: 4378
         },
         {
             id: 8,
-            src: "./jpg/lifestyle/DSC_0545.jpg",
+            src: "../../jpg/lifestyle/DSC_0545.jpg",
             alt: "dd",
             width: 3264, height: 4928
         },
