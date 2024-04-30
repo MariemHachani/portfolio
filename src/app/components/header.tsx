@@ -23,7 +23,7 @@ export default function Header() {
     const [nav, setNav] = useState(false);
 
     const listenScrollEvent = () => {
-        if (window.innerWidth > 430) {
+        //if (window.innerWidth > 430) {
             if (window.scrollY > 340) {
                 setnavColor("#ffff");
                 setShadow("0 4px 8px 0 rgba(0, 0, 0, 0.2)")
@@ -34,7 +34,7 @@ export default function Header() {
                 settextColor("white")
                 setShadow("0 4px 8px 0 rgba(0, 0, 0, 0 ")
             }
-        }
+        //}
     };
     const handleResize = () => {
         if (window.innerWidth >= 430) { // Assuming 768px is your md breakpoint
