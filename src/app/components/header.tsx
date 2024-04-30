@@ -4,6 +4,13 @@ import { usePathname } from 'next/navigation'
 import { poppins, PlayfairDisplay, dancingscript } from "@/fonts"
 import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { TbPhotoCog } from 'react-icons/tb';
+import { IoMailUnreadOutline } from 'react-icons/io5';
+import { MdOutlineHandshake } from 'react-icons/md';
+import { GrGallery } from 'react-icons/gr';
+import { BiHome, BiHomeAlt } from 'react-icons/bi';
+import { HiOutlineHome } from 'react-icons/hi';
+import { LuHome } from 'react-icons/lu';
 
 
 
@@ -154,19 +161,31 @@ export default function Header() {
                     onClick={() => setNav(!nav)}
                     className="cursor-pointer z-10 text-gray-500 md:hidden"
                 >
-                    {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+                    {nav ? <FaTimes color='#e090ad' size={30} /> : <FaBars size={30} />}
                 </div>
 
                 {nav && (
-                    <ul className="flex bg-lightpink flex-col pt-8 items-center absolute top-0 right-0 w-2/3 h-screen ">
+                    <ul style={poppins.style} className="flex shadow-lg px-4 py-16 bg-white text-midpink flex-col  absolute top-0 right-0 w-2/3 h-screen ">
 
-                        <li
-
-                            className="px-2 cursor-pointer capitalize py-4 text-lg "
-                        >
-                            <Link onClick={() => setNav(!nav)} href={"#"}>
-                                heyyyyy
-                            </Link>
+                        <li className="flex items-center px-2 cursor-pointer capitalize py-2 text-lg " >
+                            <LuHome size={20} />
+                            <Link className="px-2" onClick={() => setNav(!nav)} href="/photographer-brussels/">Welcome</Link>
+                        </li>
+                        <li className="flex items-center px-2 cursor-pointer capitalize py-2 text-lg " >
+                            <GrGallery size={18} />
+                            <Link className="px-2" onClick={() => setNav(!nav)} href="/photographer-brussels/portfolio">Portfolio</Link>
+                        </li>
+                        <li className="flex items-center px-2 cursor-pointer capitalize py-2 text-lg " >
+                            <TbPhotoCog size={20} />
+                            <Link className="px-2" onClick={() => setNav(!nav)} href="/photographer-brussels/services">Services</Link>
+                        </li>
+                        <li className="flex items-center px-2 cursor-pointer capitalize py-2 text-lg " >
+                            <MdOutlineHandshake size={20} />
+                            <Link className="px-2" onClick={() => setNav(!nav)} href="/photographer-brussels/hire-photographer">Why hire me?</Link>
+                        </li>
+                        <li className="flex items-center px-2 cursor-pointer capitalize py-2 text-lg " >
+                            <IoMailUnreadOutline size={20} />
+                            <Link className="px-2" onClick={() => setNav(!nav)} href="/photographer-brussels/contact">Contact</Link>
                         </li>
 
                     </ul>
