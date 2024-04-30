@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { poppins, PlayfairDisplay, dancingscript } from "@/fonts"
 import React, { useEffect, useState } from "react";
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 
 
@@ -12,23 +13,36 @@ export default function Header() {
     const [navColor, setnavColor] = useState("transparent");
     const [textColor, settextColor] = useState("white");
     const [shadow, setShadow] = useState("");
+    const [nav, setNav] = useState(false);
 
     const listenScrollEvent = () => {
-        if (window.scrollY > 340) {
-            setnavColor("#ffff");
-            setShadow("0 4px 8px 0 rgba(0, 0, 0, 0.2)")
-            settextColor("#e090ad")
+        if (window.innerWidth > 430) {
+            if (window.scrollY > 340) {
+                setnavColor("#ffff");
+                setShadow("0 4px 8px 0 rgba(0, 0, 0, 0.2)")
+                settextColor("#e090ad")
+            }
+            else {
+                setnavColor("transparent")
+                settextColor("white")
+                setShadow("0 4px 8px 0 rgba(0, 0, 0, 0 ")
+            }
         }
-        else {
-            setnavColor("transparent")
-            settextColor("white")
-            setShadow("0 4px 8px 0 rgba(0, 0, 0, 0 ")
+    };
+    const handleResize = () => {
+        if (window.innerWidth >= 430) { // Assuming 768px is your md breakpoint
+            setNav(false);
         }
     };
     useEffect(() => {
         window.addEventListener("scroll", listenScrollEvent);
+        window.addEventListener('resize', handleResize);
+
+        // Clean up the event listener
+
         return () => {
             window.removeEventListener("scroll", listenScrollEvent);
+            window.removeEventListener('resize', handleResize);
         };
     }, []);
     const toggle = () => {
@@ -47,13 +61,13 @@ export default function Header() {
             color: textColor,
             transition: "ease-in-out 0.25s"
         }}>
-            <div className=" sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-8 py-1 md:py-2 flex justify-between items-center  " >
+            <div className=" sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-8 py-4 md:py-2 flex justify-between items-center  " >
                 <div className="flex flex-col items-center text-sm md:text-base leading-none drop-shadow-lg">
                     <a href="/" style={PlayfairDisplay.style}>Mariem Hachani</a>
                     <div style={dancingscript.style} className='tracking-wider'>
                         {pathname.includes("photographer-brussels") ? <span >Photography</span> : pathname.includes("logical") ? <span>WebDev</span> : <span className='hidden'>Keep space</span>}</div>
                 </div>
-                <div className='flex text-base md:text-lg drop-shadow-lg' style={poppins.style}>
+                <div className='hidden md:flex text-base md:text-lg drop-shadow-lg' style={poppins.style}>
                     {pathname.includes("photographer-brussels") ? (<>
                         <Link className={`mx-2 pb-0.5 cursor-pointer  border-b-2 border-transparent  ${pathname === '/' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/photographer-brussels/">Welcome</Link>
                         <div className="group relative">
@@ -99,7 +113,7 @@ export default function Header() {
 
                         </div>
 
-                         <div className="group relative ">
+                        <div className="group relative ">
                             <Link
                                 className={` mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent ${isOpen ? '! border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `}
                                 href='/photographer-brussels/services'
@@ -134,9 +148,27 @@ export default function Header() {
                     <Link className={`mx-2 pb-0.5 cursor-pointer  border-b-2 border-transparent  ${pathname === '/contact' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/photographer-brussels/contact">Contact</Link>
 
                 </div>
+                <div
+                    onClick={() => setNav(!nav)}
+                    className="cursor-pointer z-10 text-gray-500 md:hidden"
+                >
+                    {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+                </div>
 
+                {nav && (
+                    <ul className="flex bg-lightpink flex-col pt-8 items-center absolute top-0 right-0 w-2/3 h-screen ">
 
+                        <li
 
+                            className="px-2 cursor-pointer capitalize py-4 text-lg "
+                        >
+                            <Link onClick={() => setNav(!nav)} href={"#"}>
+                                heyyyyy
+                            </Link>
+                        </li>
+
+                    </ul>
+                )}
             </div>
         </div>
 

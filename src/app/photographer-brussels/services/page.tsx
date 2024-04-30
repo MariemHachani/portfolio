@@ -9,13 +9,13 @@ export default function Page() {
             id: 0,
             lib: "shooting",
             url: "/photographer-brussels/services/photoshoots",
-            img: "../jpg/wedding-photoshoot.jpg"
+            img: "/jpg/wedding-photoshoot.jpg"
         },
         {
             id: 1,
             lib: "editing",
             url: "/photographer-brussels/services/editing",
-            img: "../jpg/lifestyle-photoshoot.jpg"
+            img: "/jpg/lifestyle-photoshoot.jpg"
         },
     ]
     return (

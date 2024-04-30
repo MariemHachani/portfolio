@@ -18,7 +18,7 @@ export default function FAQ() {
                         <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
                             <span className="group-open:font-bold"> How Long have you been a photographer?</span>
                             <span className="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                 </svg>
                             </span>
                         </summary>
@@ -32,7 +32,7 @@ export default function FAQ() {
                         <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
                             <span className="group-open:font-bold"> How many pictures do you deliver?</span>
                             <span className="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                 </svg>
                             </span>
                         </summary>
@@ -46,7 +46,7 @@ export default function FAQ() {
                         <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
                             <span className="group-open:font-bold"> Do you edit the pictures?</span>
                             <span className="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                 </svg>
                             </span>
                         </summary>
@@ -60,7 +60,7 @@ export default function FAQ() {
                         <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
                             <span className="group-open:font-bold"> How will I recieve the pictures?</span>
                             <span className="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                 </svg>
                             </span>
                         </summary>
@@ -74,7 +74,7 @@ export default function FAQ() {
                         <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
                             <span className="group-open:font-bold"> Do you travel? Are there any additional transportation fees?</span>
                             <span className="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                 </svg>
                             </span>
                         </summary>
@@ -88,7 +88,7 @@ export default function FAQ() {
                         <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
                             <span className="group-open:font-bold"> How do I book a date?</span>
                             <span className="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                 </svg>
                             </span>
                         </summary>
