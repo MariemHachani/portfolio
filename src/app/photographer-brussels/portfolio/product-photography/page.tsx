@@ -83,7 +83,7 @@ export default function Products() {
     ]
     return (
         <div className="flex flex-col ">
-            <PhotoStyleBanner title="Product photograher in Brussels" imgUrl="./jpg/product/DSC_0075.jpg" />
+            <PhotoStyleBanner title="Product photograher in Brussels" imgUrl="../../jpg/product/DSC_0075.jpg" />
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="flex flex-col md:flex-row justify-between ">
                     <div className="flex flex-col w-full md:w-2/5  mr-8">
@@ -99,7 +99,7 @@ export default function Products() {
                     </div>
 
 
-                    <Image height={600} width={600} src="./jpg/product/DSC_0044.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600} src="../../jpg/product/DSC_0044.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
                     <GreenTitle title="Gallery" />
