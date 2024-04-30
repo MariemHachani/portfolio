@@ -50,7 +50,7 @@ export default function Photoshoot() {
                             </div>
                         </div>
                     </div>
-                    <Image height={600} width={600} src="/jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-96  object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600} src="../../jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-96  object-cover bg-center bg-no-repeat" />
 
 
                 </div>
