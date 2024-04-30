@@ -153,7 +153,7 @@ export default function Lifestyle() {
                     </div>
 
 
-                    <Image height={600} width={600} src="../../jpg/lifestyle/DSC00360.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600}  src="../../jpg/lifestyle/DSC00360.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
                     <GreenTitle title="Gallery" />
