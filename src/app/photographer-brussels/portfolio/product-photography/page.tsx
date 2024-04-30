@@ -32,50 +32,50 @@ export default function Products() {
     let photos = [
         {
             id: 1,
-            src: "./jpg/product/DSC_0056.jpg",
+            src: "../../jpg/product/DSC_0056.jpg",
             alt: "dd",
             width: 2961, height: 4145
         },
         {
             id: 2,
-            src: "./jpg/product/DSC_0058.jpg",
+            src: "../../jpg/product/DSC_0058.jpg",
             alt: "dd",
             width: 4303, height: 2850
         },
 
         {
             id: 8,
-            src: "./jpg/product/DSC_0044.jpg",
+            src: "../../jpg/product/DSC_0044.jpg",
             alt: "dd",
             width: 4570, height: 3264
         },
         {
             id: 3,
-            src: "./jpg/product/DSC_0285.jpg",
+            src: "../../jpg/product/DSC_0285.jpg",
             alt: "dd",
             width: 3153, height: 4760
         },
         {
             id: 4,
-            src: "./jpg/product/DSC_0103.jpg",
+            src: "../../jpg/product/DSC_0103.jpg",
             alt: "dd",
             width: 1255, height: 1920
         },
         {
             id: 5,
-            src: "./jpg/product/DSC_0258.jpg",
+            src: "../../jpg/product/DSC_0258.jpg",
             alt: "dd",
             width: 4661, height: 3087
         },
         {
             id: 6,
-            src: "./jpg/product/DSC_0523.jpg",
+            src: "../../jpg/product/DSC_0523.jpg",
             alt: "dd",
             width: 4865, height: 3222
         },
         {
             id: 7,
-            src: "./jpg/product/DSC_0574.jpg",
+            src: "../../jpg/product/DSC_0574.jpg",
             alt: "dd",
             width: 4928, height: 3264
         },
