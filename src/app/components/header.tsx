@@ -63,9 +63,11 @@ export default function Header() {
         }}>
             <div className=" sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-8 py-4 md:py-2 flex justify-between items-center  " >
                 <div className="flex flex-col items-center text-sm md:text-base leading-none drop-shadow-lg">
-                    <a href="/" style={PlayfairDisplay.style}>Mariem Hachani</a>
+                    <a href="/portfolio" style={PlayfairDisplay.style}>Mariem Hachani
                     <div style={dancingscript.style} className='tracking-wider'>
-                        {pathname.includes("photographer-brussels") ? <span >Photography</span> : pathname.includes("logical") ? <span>WebDev</span> : <span className='hidden'>Keep space</span>}</div>
+                        {pathname.includes("photographer-brussels") ? <span >Photography</span> : pathname.includes("logical") ? <span>WebDev</span> : <span className='hidden'>Keep space</span>}
+                    </div>
+                        </a>
                 </div>
                 <div className='hidden md:flex text-base md:text-lg drop-shadow-lg' style={poppins.style}>
                     {pathname.includes("photographer-brussels") ? (<>
