@@ -23,7 +23,7 @@ export default function Page() {
 
             <PageBanner title="My servives as a photographer and editor"
                 subtitle="For individuals and corporate clients, I offer a multitude of services that suites your needs"
-                imgUrl="./jpg/portfolio-banner.jpg" />
+                imgUrl="../jpg/portfolio-banner.jpg" />
 
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col items-center text-center">
                 <h1 style={PlayfairDisplay.style} className="text-green font-bold text-2xl uppercase">Let&apos;s discover</h1>
