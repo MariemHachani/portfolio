@@ -140,7 +140,7 @@ export default function Lifestyle() {
             <PhotoStyleBanner title="Lifestyle photograher in Brussels" imgUrl="../../jpg/lifestyle/DSC06513.jpg" />
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="flex flex-col md:flex-row justify-between ">
-                    <div className="flex flex-col w-full md:w-2/5  mr-8">
+                    <div className="flex flex-col w-full md:w-3/5  mr-8">
                         <GreenTitle title="Lifestyle Photography" />
 
                         <GreenSubTitle title="My Vision" />
