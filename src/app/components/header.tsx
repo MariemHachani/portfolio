@@ -23,7 +23,7 @@ export default function Header() {
     const [nav, setNav] = useState(false);
 
     const listenScrollEvent = () => {
-        if (window.innerWidth > 430) {
+        //if (window.innerWidth > 430) {
             if (window.scrollY > 340) {
                 setnavColor("#ffff");
                 setShadow("0 4px 8px 0 rgba(0, 0, 0, 0.2)")
@@ -34,7 +34,7 @@ export default function Header() {
                 settextColor("white")
                 setShadow("0 4px 8px 0 rgba(0, 0, 0, 0 ")
             }
-        }
+        //}
     };
     const handleResize = () => {
         if (window.innerWidth >= 430) { // Assuming 768px is your md breakpoint
@@ -120,7 +120,7 @@ export default function Header() {
 
                         </div>
 
-                        <div className="group relative ">
+                        {/*<div className="group relative ">
                             <Link
                                 className={` mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent ${isOpen ? '! border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `}
                                 href='/photographer-brussels/services'
@@ -146,7 +146,7 @@ export default function Header() {
                                     </span></Link>
 
                             </div>
-                        </div>
+                    </div>*/}
                         <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/my-brand' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/photographer-brussels/hire-photographer">Why hire me?</Link>
                         {/*                         <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/pricing' ? ' !border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/pricing">Pricing</Link>
  */}                    </>) :
