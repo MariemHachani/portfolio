@@ -175,10 +175,10 @@ export default function Header() {
                             <GrGallery size={18} />
                             <Link className="px-2" onClick={() => setNav(!nav)} href="/photographer-brussels/portfolio">Portfolio</Link>
                         </li>
-                        <li className="flex items-center px-2 cursor-pointer capitalize py-2 text-lg " >
+                        {/* <li className="flex items-center px-2 cursor-pointer capitalize py-2 text-lg " >
                             <TbPhotoCog size={20} />
                             <Link className="px-2" onClick={() => setNav(!nav)} href="/photographer-brussels/services">Services</Link>
-                        </li>
+                        </li>*/}
                         <li className="flex items-center px-2 cursor-pointer capitalize py-2 text-lg " >
                             <MdOutlineHandshake size={20} />
                             <Link className="px-2" onClick={() => setNav(!nav)} href="/photographer-brussels/hire-photographer">Why hire me?</Link>
