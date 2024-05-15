@@ -13,7 +13,7 @@ export default function PhotoStyleBanner(details: StyleBannerProps) {
             clipPath: 'inset(0 0 0 0)',
         }} >
             <div className="fixed h-full w-full top-0 left-0 ">
-                <Image priority style={{ backgroundPosition: "center", objectFit:"cover" }} fill alt="page_banner" src={details.imgUrl}></Image>
+                <Image priority style={{ backgroundPosition: "center", marginTop: "-100px", objectFit: "cover" }} fill alt="page_banner" src={details.imgUrl}></Image>
             </div>
             <div className=" flex flex-col justify-center items-center text-center text-white h-96">
                 <h3 style={poppins.style}  >Take a look in my portfolio</h3>
