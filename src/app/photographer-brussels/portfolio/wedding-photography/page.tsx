@@ -32,99 +32,99 @@ export default function Weddings() {
     let photos = [
         {
             id: 1,
-            src: "https://source.unsplash.com/bYuI23mnmDQ",
+            src: "/jpg/wedding/DSC07416.jpg",
             alt: "dd",
-            width: 1600, height: 900
+            width: 4000, height: 6000
         },
         {
             id: 2,
-            src: "https://source.unsplash.com/lp40q07DIe0",
+            src: "/jpg/wedding/DSC07472.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 4000, height: 2600
         },
         {
             id: 3,
-            src: "https://source.unsplash.com/wfalq01jJuU",
+            src: "/jpg/wedding/DSC07521.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 3800, height: 5700
         },
         {
             id: 4,
-            src: "https://source.unsplash.com/rMHNK_skwwU",
+            src: "/jpg/wedding/DSC07545.jpg",
             alt: "dd",
-            width: 850, height: 1000
+            width: 5100, height: 3400
         },
         {
             id: 5,
-            src: "https://source.unsplash.com/Nllx4R-2c3o",
+            src: "/jpg/wedding/DSC07588.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 3600, height: 5400
         },
         {
             id: 6,
-            src: "https://source.unsplash.com/WBMjuGpbrCQ",
+            src: "/jpg/wedding/DSC_0894.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 4900, height: 3200
         },
         {
             id: 7,
-            src: "https://source.unsplash.com/nCUZ5BYBL_o",
+            src: "/jpg/wedding/DSC_0800.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 3100, height: 4700
         },
         {
             id: 8,
-            src: "https://source.unsplash.com/3u4fzMQZhjc",
+            src: "/jpg/wedding/DSC_0795.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 3200, height: 4900
         },
         {
             id: 9,
-            src: "https://source.unsplash.com/haOIqIPSwps",
+            src: "/jpg/wedding/DSC_0493.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 2900, height: 4300
         },
         {
             id: 10,
-            src: "https://source.unsplash.com/3UrYD7NNVxk",
+            src: "/jpg/wedding/DSC_0923.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 4900, height: 3200
         },
         {
             id: 11,
-            src: "https://source.unsplash.com/fm1JKDItlVM",
+            src: "/jpg/wedding/DSC_0067.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 3200, height: 4900
         },
         {
             id: 12,
-            src: "https://source.unsplash.com/qPpq1EVs8vw",
+            src: "/jpg/wedding/DSC_0143.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 4600, height: 3000
         },
         {
             id: 13,
-            src: "https://source.unsplash.com/xRyL63AwZFE",
+            src: "/jpg/wedding/DSC_0167.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 3200, height: 4900
         },
         {
             id: 14,
-            src: "https://source.unsplash.com/XeNKWTiCPNw",
+            src: "/jpg/wedding/DSC_0064.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 4600, height: 3000
         },
         {
             id: 15,
-            src: "https://source.unsplash.com/DFt3T5r_4FE",
+            src: "/jpg/wedding/DSC_0059.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 3000, height: 4600
         },
         {
             id: 16,
-            src: "https://source.unsplash.com/Ebwp2-6BG8E",
+            src: "/jpg/wedding/DSC_0032.jpg",
             alt: "dd",
-            width: 800, height: 600
+            width: 2800, height: 4300
         },
     ]
     return (
@@ -132,7 +132,7 @@ export default function Weddings() {
             <PhotoStyleBanner title="Wedding photograher in Brussels" imgUrl="/jpg/wedding/wedding-shooting.jpg" />
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="flex flex-col md:flex-row justify-between ">
-                    <div className="flex flex-col w-full md:w-2/5  mr-8">
+                    <div className="flex flex-col w-full md:w-3/5  mr-8">
                         <GreenTitle title="Wedding Photography" />
 
                         <GreenSubTitle title="My Vision" />
@@ -151,6 +151,7 @@ export default function Weddings() {
                     <GreenTitle title="Gallery" />
 
                     <PhotoAlbum layout="columns"
+
                         photos={photos}
                         renderPhoto={NextJsImage}
                         sizes={{ size: "calc(100vw - 240px)" }}
