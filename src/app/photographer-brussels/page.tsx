@@ -22,16 +22,16 @@ export default function Page() {
   return (
     <div className="flex flex-col ">
 
-      <div className="relative -mt-16 w-full h-96" style={{
+      <div className="relative -mt-16 w-full h-[520px]" style={{
         clipPath: 'inset(0 0 0 0)',
       }} >
         <div className="fixed h-full w-full top-0 left-0 ">
-          <Image priority style={{ backgroundPosition: "center", objectFit: "cover" }} fill alt="page_banner" src="./jpg/homepage-banner.jpg"></Image>
+          <Image priority style={{ backgroundPosition: "center", marginTop: "-120px", objectFit: "cover" }} fill alt="page_banner" src="./jpg/homepage-banner.jpg"></Image>
         </div>
       </div>
 
 
-      <div className="mt-20 bg-white">
+      <div className=" bg-white">
         <About />
       </div>
       <NoImageBanner title="Need a photograher?" subtitle="I'm here to help you out! Being part of your project for me would mean dedicating all the ressources needed to fulfill your exectations, to share your values and be fully involved in your event. From weddings,  portrait sessions, product commercials to events, with a touch of my own character I will love to showcase your story." />
