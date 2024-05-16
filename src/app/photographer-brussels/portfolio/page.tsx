@@ -13,7 +13,7 @@ export default function Page() {
             <PageBanner title="My portfolio as a photographer"
                 subtitle="My services are aimed at both private and professional clients. Here is an overview of my portfolio."
 
-                imgUrl="/jpg/portfolio-banner.webp" />
+                imgUrl="../jpg/portfolio-banner.webp" />
 
 
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col items-center">
