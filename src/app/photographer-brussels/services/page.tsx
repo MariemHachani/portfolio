@@ -9,13 +9,17 @@ export default function Page() {
             id: 0,
             lib: "shooting",
             url: "/photographer-brussels/services/photoshoots",
+
             img: "/jpg/wedding-photoshoot.webp"
+
         },
         {
             id: 1,
             lib: "editing",
             url: "/photographer-brussels/services/editing",
+
             img: "/jpg/lifestyle-photoshoot.webp"
+
         },
     ]
     return (
