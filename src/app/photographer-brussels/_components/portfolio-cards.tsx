@@ -8,7 +8,7 @@ export default function PortfolioCards() {
             lib: "weddings",
             url: "/photographer-brussels/portfolio/wedding-photography",
 
-            img: "/jpg/wedding-photoshoot.webp"
+            img: "../jpg/wedding-photoshoot.webp"
 
         },
         {
@@ -16,7 +16,7 @@ export default function PortfolioCards() {
             lib: "lifestyle",
             url: "/photographer-brussels/portfolio/lifestyle-photography",
 
-            img: "/jpg/lifestyle-photoshoot.webp"
+            img: "../jpg/lifestyle-photoshoot.webp"
 
         },
         {
@@ -24,7 +24,7 @@ export default function PortfolioCards() {
             lib: "products",
             url: "/photographer-brussels/portfolio/product-photography",
 
-            img: "/jpg/product-photoshoot.webp"
+            img: "../jpg/product-photoshoot.webp"
 
         },
         {
@@ -32,7 +32,7 @@ export default function PortfolioCards() {
             lib: "events",
             url: "/photographer-brussels/portfolio/event-photography",
 
-            img: "/jpg/events-photoshoot.webp"
+            img: "../jpg/events-photoshoot.webp"
 
         },
     ]
