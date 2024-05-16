@@ -9,8 +9,8 @@ const nextConfig = {
         taint: true, //prevent sensitive data from being exposed to the client
       },
       images:{
-        loader: 'custom',
-        loaderFile: './src/app/api/loader.tsx',
+        //loader: 'custom',
+        //loaderFile: './src/app/api/loader.tsx',
         minimumCacheTTL: 31536000,
       }
 }
