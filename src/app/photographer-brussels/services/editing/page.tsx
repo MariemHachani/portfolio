@@ -8,10 +8,10 @@ import Image from "next/image";
 export default function Editing() {
     return (
         <div className="flex flex-col ">
-            <PhotoStyleBanner title="Wedding photograher in Brussels" imgUrl="../../jpg/wedding-portfolio.jpg" />
+            <PhotoStyleBanner title="Wedding photograher in Brussels" imgUrl="../../jpg/wedding-portfolio.webp" />
             <div style={poppins.style} className=" sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="mt-8 flex flex-col md:flex-row justify-between ">
-                    <Image height={600} width={600} src="../../jpg/wedding-portfolio.jpg" alt="" className="bg-cover mr-8 h-60 md:h-96  object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600} src="../../jpg/wedding-portfolio.webp" alt="" className="bg-cover mr-8 h-60 md:h-96  object-cover bg-center bg-no-repeat" />
                     <div className="flex flex-col w-full md:w-3/5 pt-8 md:pt-0 ">
                         <GreenSubTitle title="My Story" />
                         <GreenTitle title="Wedding Photography" />
@@ -49,7 +49,7 @@ export default function Editing() {
                             </div>
                         </div>
                     </div>
-                    <Image height={600} width={600} src="../../jpg/wedding-portfolio.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-96  object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600} src="../../jpg/wedding-portfolio.webp" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-96  object-cover bg-center bg-no-repeat" />
 
 
                 </div>
@@ -57,7 +57,7 @@ export default function Editing() {
             </div>
             <NoImageBanner title="For every need and occasion" subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolore quo soluta ullam earum maiores ipsa ad voluptates tempora incidunt! Ut pariatur labore commodi delectus corrupti molestias optio tenetur beatae?" />
             <div style={poppins.style} className=" sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
-              blabla
+                blabla
             </div>
         </div>
     )

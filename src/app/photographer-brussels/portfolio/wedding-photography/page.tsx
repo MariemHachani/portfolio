@@ -32,104 +32,138 @@ export default function Weddings() {
     let photos = [
         {
             id: 1,
-            src: "../../jpg/wedding/DSC07416.jpg",
+
+            src: "/jpg/wedding/DSC07416.webp",
+
             alt: "dd",
             width: 4000, height: 6000
         },
         {
             id: 2,
-            src: "../../jpg/wedding/DSC07472.jpg",
+
+            src: "/jpg/wedding/DSC07472.webp",
+
             alt: "dd",
             width: 4000, height: 2600
         },
         {
             id: 3,
-            src: "../../jpg/wedding/DSC07521.jpg",
+
+            src: "/jpg/wedding/DSC07521.webp",
+
             alt: "dd",
             width: 3800, height: 5700
         },
         {
             id: 4,
-            src: "../../jpg/wedding/DSC07545.jpg",
+
+            src: "/jpg/wedding/DSC07545.webp",
+
             alt: "dd",
             width: 5100, height: 3400
         },
         {
             id: 5,
-            src: "../../jpg/wedding/DSC07588.jpg",
+
+            src: "/jpg/wedding/DSC07588.webp",
+
             alt: "dd",
             width: 3600, height: 5400
         },
         {
             id: 6,
-            src: "../../jpg/wedding/DSC_0894.jpg",
+
+            src: "/jpg/wedding/DSC_0894.webp",
+
             alt: "dd",
             width: 4900, height: 3200
         },
         {
             id: 7,
-            src: "../../jpg/wedding/DSC_0800.jpg",
+
+            src: "/jpg/wedding/DSC_0800.webp",
+
             alt: "dd",
             width: 3100, height: 4700
         },
         {
             id: 8,
-            src: "../../jpg/wedding/DSC_0795.jpg",
+
+            src: "/jpg/wedding/DSC_0795.webp",
+
             alt: "dd",
             width: 3200, height: 4900
         },
         {
             id: 9,
-            src: "../../jpg/wedding/DSC_0493.jpg",
+
+            src: "/jpg/wedding/DSC_0493.webp",
+
             alt: "dd",
             width: 2900, height: 4300
         },
         {
             id: 10,
-            src: "../../jpg/wedding/DSC_0923.jpg",
+
+            src: "/jpg/wedding/DSC_0923.webp",
+
             alt: "dd",
             width: 4900, height: 3200
         },
         {
             id: 11,
-            src: "../../jpg/wedding/DSC_0067.jpg",
+
+            src: "/jpg/wedding/DSC_0067.webp",
+
             alt: "dd",
             width: 3200, height: 4900
         },
         {
             id: 12,
-            src: "../../jpg/wedding/DSC_0143.jpg",
+
+            src: "/jpg/wedding/DSC_0143.webp",
+
             alt: "dd",
             width: 4600, height: 3000
         },
         {
             id: 13,
-            src: "../../jpg/wedding/DSC_0167.jpg",
+
+            src: "/jpg/wedding/DSC_0167.webp",
+
             alt: "dd",
             width: 3200, height: 4900
         },
         {
             id: 14,
-            src: "../../jpg/wedding/DSC_0064.jpg",
+
+            src: "/jpg/wedding/DSC_0064.webp",
+
             alt: "dd",
             width: 4600, height: 3000
         },
         {
             id: 15,
-            src: "../../jpg/wedding/DSC_0059.jpg",
+
+            src: "/jpg/wedding/DSC_0059.webp",
+
             alt: "dd",
             width: 3000, height: 4600
         },
         {
             id: 16,
-            src: "../../jpg/wedding/DSC_0032.jpg",
+
+            src: "/jpg/wedding/DSC_0032.webp",
+
             alt: "dd",
             width: 2800, height: 4300
         },
     ]
     return (
         <div className="flex flex-col ">
-            <PhotoStyleBanner title="Wedding photograher in Brussels" imgUrl="../../jpg/wedding/wedding-shooting.jpg" />
+
+            <PhotoStyleBanner title="Wedding photograher in Brussels" imgUrl="/jpg/wedding/wedding-shooting.webp" />
+
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="flex flex-col md:flex-row justify-between ">
                     <div className="flex flex-col w-full md:w-3/5  mr-8">
@@ -145,7 +179,9 @@ export default function Weddings() {
                     </div>
 
 
-                    <Image height={600} width={600} src="../../jpg/wedding/DSC_0103.jpg" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
+
+                    <Image height={600} width={600} src="/jpg/wedding/DSC_0103.webp" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
+
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
                     <GreenTitle title="Gallery" />
