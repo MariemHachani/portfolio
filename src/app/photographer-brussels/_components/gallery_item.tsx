@@ -2,11 +2,11 @@ export default function GalleryItem() {
     return (
         <div className="container mx-auto mt-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-               {/*  <div className="grid gap-4">
+                {/*  <div className="grid gap-4">
                     <div>
                         <img
                             className="h-auto max-w-full rounded-lg"
-                            src="https://upload.wikimedia.org/wikipedia/commons/0/03/Kashi_Vishwanath_Temple_Banaras.jpg"
+                            src="https://upload.wikimedia.org/wikipedia/commons/0/03/Kashi_Vishwanath_Temple_Banaras.webp"
                             alt=""
                         />
                     </div>
@@ -36,14 +36,14 @@ export default function GalleryItem() {
                     <div>
                         <img
                             className="h-auto max-w-full rounded-lg"
-                            src="https://i.pinimg.com/originals/c0/7d/17/c07d17d7ca0b9f39f5aded4b6dca8f02.jpg"
+                            src="https://i.pinimg.com/originals/c0/7d/17/c07d17d7ca0b9f39f5aded4b6dca8f02.webp"
                             alt=""
                         />
                     </div>
                     <div>
                         <img
                             className="h-auto max-w-full rounded-lg"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Benares-_The_Golden_Temple%2C_India%2C_ca._1915_%28IMP-CSCNWW33-OS14-66%29.jpg/1280px-Benares-_The_Golden_Temple%2C_India%2C_ca._1915_%28IMP-CSCNWW33-OS14-66%29.jpg"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Benares-_The_Golden_Temple%2C_India%2C_ca._1915_%28IMP-CSCNWW33-OS14-66%29.webp/1280px-Benares-_The_Golden_Temple%2C_India%2C_ca._1915_%28IMP-CSCNWW33-OS14-66%29.webp"
                             alt=""
                         />
                     </div>
@@ -52,7 +52,7 @@ export default function GalleryItem() {
                     <div>
                         <img
                             className="h-auto max-w-full rounded-lg"
-                            src="https://www.jagranimages.com/images/newimg/27072020/27_07_2020-shri-kashi-vishwanath-temple_20557350.jpg"
+                            src="https://www.jagranimages.com/images/newimg/27072020/27_07_2020-shri-kashi-vishwanath-temple_20557350.webp"
                             alt=""
                         />
                     </div>
@@ -82,14 +82,14 @@ export default function GalleryItem() {
                     <div>
                         <img
                             className="h-auto max-w-full rounded-lg"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg/800px-Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.webp/800px-Ahilya_Ghat_by_the_Ganges%2C_Varanasi.webp"
                             alt=""
                         />
                     </div>
                     <div>
                         <img
                             className="h-auto max-w-full rounded-lg"
-                            src="https://upload.wikimedia.org/wikipedia/commons/2/25/Chet_Singh_Ghat_in_Varanasi.jpg"
+                            src="https://upload.wikimedia.org/wikipedia/commons/2/25/Chet_Singh_Ghat_in_Varanasi.webp"
                             alt=""
                         />
                     </div>

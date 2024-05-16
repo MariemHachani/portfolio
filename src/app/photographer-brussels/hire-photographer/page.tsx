@@ -15,25 +15,25 @@ export default function HirePhotographer() {
     let photos = [
         {
             id: 1,
-            src: "/jpg/hire-me/DSC07525.jpg",
+            src: "/jpg/hire-me/DSC07525.webp",
             alt: "dd",
             width: 600, height: 900
         },
         {
             id: 2,
-            src: "/jpg/hire-me/DSC06465.jpg",
+            src: "/jpg/hire-me/DSC06465.webp",
             alt: "dd",
             width: 600, height: 900
         },
         {
             id: 3,
-            src: "/jpg/hire-me/DSC06609.jpg",
+            src: "/jpg/hire-me/DSC06609.webp",
             alt: "dd",
             width: 600, height: 900
         },
         {
             id: 4,
-            src: "/jpg/hire-me/DSC06880.jpg",
+            src: "/jpg/hire-me/DSC06880.webp",
             alt: "dd",
             width: 600, height: 900
         }
@@ -41,7 +41,7 @@ export default function HirePhotographer() {
     return <div className="flex flex-col ">
         <PageBanner title="Why Hire Me?"
             subtitle="You deserve to understand what you'll be getting as my client and to know If we are a good match."
-            imgUrl="/jpg/portfolio-banner.jpg" />
+            imgUrl="/jpg/portfolio-banner.webp" />
         <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col items-center">
             <GreenTitle title="More than a service" />
 

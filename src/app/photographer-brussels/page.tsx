@@ -26,7 +26,7 @@ export default function Page() {
         clipPath: 'inset(0 0 0 0)',
       }} >
         <div className="fixed h-full w-full top-0 left-0 ">
-          <Image priority style={{ backgroundPosition: "center", marginTop: "-120px", objectFit: "cover" }} fill alt="page_banner" src="./jpg/homepage-banner.jpg"></Image>
+          <Image priority style={{ backgroundPosition: "center", marginTop: "-120px", objectFit: "cover" }} fill alt="page_banner" src="./jpg/homepage-banner.webp"></Image>
         </div>
       </div>
 
