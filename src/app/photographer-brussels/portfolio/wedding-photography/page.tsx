@@ -180,7 +180,7 @@ export default function Weddings() {
 
 
 
-                    <Image height={600} width={600} placeholder="blur" src="../../jpg/wedding/DSC_0103.webp" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
+                    <Image height={600} width={600} placeholder="blur" src="../../jpg/wedding/DSC07525.webp" alt="" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
 
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
