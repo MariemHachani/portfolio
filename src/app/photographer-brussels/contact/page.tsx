@@ -12,7 +12,7 @@ export default function Page() {
             <PageBanner title="Available photographer for your questions"
                 subtitle="Tell me about your session needs, availabilities and any other information from the from below"
 
-                imgUrl="/jpg/portfolio-banner.webp" />
+                imgUrl="../jpg/portfolio-banner.webp" />
 
 
             <div style={poppins.style} className="my-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col sm:flex-row items-center text-center">
@@ -50,18 +50,18 @@ export default function Page() {
                         <h2 style={dancingscript.style} className="text-2xl text-darkgreen font-extrabold">Socials</h2>
                         <ul className="flex mt-3 space-x-4">
                             <li className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a href="https://www.instagram.com/mr.shootingphactory/">
+                                <a aria-label="Instagram" href="https://www.instagram.com/mr.shootingphactory/">
                                     <FiInstagram stroke="#039f9b" size={20} />
                                 </a>
                             </li>
                             <li className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a href="https://www.facebook.com/Khlifi.R">
+                                <a aria-label="Facebook" href="https://www.facebook.com/Khlifi.R">
                                     <FiFacebook stroke="#039f9b" size={20} />
 
                                 </a>
                             </li>
                             <li className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a href="#">
+                                <a aria-label="Linkedin" href="#">
                                     <FiLinkedin stroke="#039f9b" size={20} />
 
                                 </a>
