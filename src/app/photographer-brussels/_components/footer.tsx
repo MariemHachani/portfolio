@@ -21,18 +21,18 @@ export default function Footer() {
 
                 <ul className="flex   mt-3 space-x-4">
                     <li className=" shrink-0">
-                        <a href="https://www.instagram.com/mr.shootingphactory/" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center">
+                        <a aria-label="Instagram" href="https://www.instagram.com/mr.shootingphactory/" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center">
                             <FiInstagram stroke="#039f9b" size={20} />
                         </a>
                     </li>
                     <li className="shrink-0">
-                        <a href="https://www.facebook.com/Khlifi.R" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center ">
+                        <a aria-label="Facebook" href="https://www.facebook.com/Khlifi.R" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center ">
                             <FiFacebook stroke="#039f9b" size={20} />
 
                         </a>
                     </li>
                     <li className="shrink-0">
-                        <a href="#" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center ">
+                        <a href="#" aria-label="Linkedin" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center ">
                             <FiLinkedin stroke="#039f9b" size={20} />
 
                         </a>
