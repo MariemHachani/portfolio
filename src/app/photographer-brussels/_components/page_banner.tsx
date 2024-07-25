@@ -18,7 +18,7 @@ export default function PageBanner(details: BannerProps) {
       </div>
       <div className=" flex flex-col justify-center items-center text-center text-white h-96">
         <h1 style={PlayfairDisplay.style} className="text-2xl drop-shadow-lg" >{details.title}</h1>
-        <h1 style={poppins.style} className="text-lg drop-shadow-lg" >{details.subtitle}</h1>
+        <h1 style={poppins.style} className="text-sm drop-shadow-lg" >{details.subtitle}</h1>
 
       </div>
     </div>

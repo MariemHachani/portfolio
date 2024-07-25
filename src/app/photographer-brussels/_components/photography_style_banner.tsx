@@ -16,7 +16,7 @@ export default function PhotoStyleBanner(details: StyleBannerProps) {
                 <Image priority style={{ backgroundPosition: "center", marginTop: "-100px", objectFit: "cover" }} fill alt="page_banner" src={details.imgUrl}></Image>
             </div>
             <div className=" flex flex-col justify-center items-center text-center text-white h-96">
-                <h3 style={poppins.style} className="text-lg drop-shadow-lg	" >Take a look in my portfolio</h3>
+                <h3 style={poppins.style} className="text-sm drop-shadow-lg	" >Take a look in my portfolio</h3>
                 <h1 style={PlayfairDisplay.style} className="text-2xl drop-shadow-lg	">{details.title}</h1>
             </div>
         </div>
