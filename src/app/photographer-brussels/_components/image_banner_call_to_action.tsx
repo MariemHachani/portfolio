@@ -8,7 +8,7 @@ export default function ImageCallToAction(params: { title: string, subtitle: str
     const ref1 = useRef<HTMLInputElement>(null);
     const isVisible1 = useIsVisible(ref1);
     return (
-        <div ref={ref1} className="flex justify-center overflow-hidden  relative h-96">
+        <div ref={ref1} className={`flex justify-center overflow-hidden relative ${params.imgUrl && "h-96"} `}>
             {
                 params.imgUrl &&
 
@@ -20,7 +20,7 @@ export default function ImageCallToAction(params: { title: string, subtitle: str
 
                     <h2 style={PlayfairDisplay.style} className=" text-2xl text-green uppercase">{params.title}</h2>
                     <p className="text-center  pt-4">{params.subtitle}</p>
-                    <div className={` delay-1000 transition-all duration-1000  text-center ${isVisible1 ? " opacity-100 " : "opacity-0 -translate-x-10"}`}>
+                    <div className={`my-8 delay-1000 transition-all duration-1000  text-center ${isVisible1 ? " opacity-100 " : "opacity-0 -translate-x-10"}`}>
                         <Link href={params.btnUrl} style={poppins.style}
                             className=" py-2 px-2 relative border-2 overflow-hidden font-medium  border-green  text-green  shadow-green-transparent shadow-2xl transition-all  before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-green hover:text-white before:transition-all before:duration-500   hover:before:left-0 hover:before:w-full rounded-md uppercase"><span className="relative z-10">{params.btnText}</span></Link>
                     </div>
