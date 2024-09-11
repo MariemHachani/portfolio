@@ -42,9 +42,10 @@ export default function Page() {
         <Product />
         <Events />
       </div>
+      <ImageCallToAction title="Why is it important to pick the right photograher?" subtitle="Choosing the right photographer goes beyond technical skills; it's about finding someone who understands your vision, listens to your needs, and makes you feel comfortable throughout the process. A great photographer brings patience, communication, and creativity to the table." url="/photographer-brussels/hire-photographer" imgUrl="jpg/family-photoshoot.webp" />
+      
       <Services />
 
-      <ImageCallToAction title="Need a photograher?" subtitle="For individuals and professionals, I offer you my services as a photographer. I would love to be part of your project for that I'm ready to dedicate all the ressources needed to fulfill your exectations, to share your values and be fully involved in your event. " url="/photographer-brussels/contact" />
     </div>
   )
 }
