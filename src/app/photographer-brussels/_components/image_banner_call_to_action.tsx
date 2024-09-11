@@ -8,7 +8,7 @@ export default function ImageCallToAction(params: { title: string, subtitle: str
     const ref1 = useRef<HTMLInputElement>(null);
     const isVisible1 = useIsVisible(ref1);
     return (
-        <div ref={ref1} className={`flex justify-center overflow-hidden relative ${params.imgUrl && "h-96"} `}>
+        <div ref={ref1} className={`flex justify-center overflow-hidden relative ${params.imgUrl ? "h-96" : "h-64"} `}>
             {
                 params.imgUrl &&
 
