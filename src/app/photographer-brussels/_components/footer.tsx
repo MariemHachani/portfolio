@@ -13,8 +13,8 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-2 text-center mt-8 md:mt-0 md:text-left">
                 <Link href={"/photographer-brussels/hire-photographer"}>Why Hire Me ?</Link>
-                <Link href={"/photographer-brussels/services/photoshoots"}>Shooting</Link>
-                <Link href={"/photographer-brussels/services/editing"}>Editing</Link>
+                {/* <Link href={"/photographer-brussels/services/photoshoots"}>Shooting</Link>
+                <Link href={"/photographer-brussels/services/editing"}>Editing</Link> */}
             </div>
             <div className="flex flex-col text-center mt-8 md:mt-0 md:text-left">
                 <Link href={"/photographer-brussels/contact"}>Contact</Link>
