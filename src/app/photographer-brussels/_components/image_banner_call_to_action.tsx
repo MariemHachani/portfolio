@@ -18,7 +18,7 @@ export default function ImageCallToAction(params: { title: string, subtitle: str
                 <div className={`flex flex-col h-full items-center justify-center sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8 
                 transition-all  duration-1000 ${isVisible1 ? "  opacity-100 " : "opacity-0 -translate-x-10"}`}>
 
-                    <h2 style={PlayfairDisplay.style} className=" text-2xl text-green uppercase">{params.title}</h2>
+                    <h2 style={PlayfairDisplay.style} className=" text-2xl text-center text-green uppercase">{params.title}</h2>
                     <p className="text-center  pt-4">{params.subtitle}</p>
                     <div className={`my-8 delay-1000 transition-all duration-1000  text-center ${isVisible1 ? " opacity-100 " : "opacity-0 -translate-x-10"}`}>
                         <Link href={params.btnUrl} style={poppins.style}
