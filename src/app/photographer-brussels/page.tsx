@@ -13,6 +13,7 @@ import NoImageBanner from "./_components/no_image_banner"
 import Link from "next/link"
 import ImageCallToAction from "./_components/image_banner_call_to_action"
 import Image from "next/image"
+import Testimonials from "./_components/testimonials"
 
 export default function Page() {
   useEffect(() => {
@@ -45,9 +46,7 @@ export default function Page() {
       {/*       <ImageCallToAction title="Why is it important to pick the right photograher?" subtitle="Choosing the right photographer goes beyond technical skills; it's about finding someone who understands your vision, listens to your needs, and makes you feel comfortable throughout the process. A great photographer brings patience, communication, and creativity to the table." url="/photographer-brussels/hire-photographer" imgUrl="jpg/family-photoshoot.webp" />
  */}
       <ImageCallToAction title="The importantance of picking the right photograher" subtitle="Choosing the right photographer goes beyond technical skills; it's about finding someone who understands your vision, listens to your needs, and makes you feel comfortable throughout the process. A great photographer brings patience, communication, and creativity to the table." btnUrl="/photographer-brussels/hire-photographer" btnText="How can I help you?" />
-
-      <Services />
-
+      <Testimonials />
     </div>
   )
 }
