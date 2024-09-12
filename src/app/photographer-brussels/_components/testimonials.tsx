@@ -17,10 +17,10 @@ export default function Testimonials() {
                     </svg>
                     <blockquote>
                         <p className="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
-                            "Landwind is just awesome. It
+                        &quot;Landwind is just awesome. It
                             contains tons of predesigned components and pages starting from login screen to complex
                             dashboard.
-                            Perfect choice for your next SaaS application."</p>
+                            Perfect choice for your next SaaS application.&quot;</p>
                     </blockquote>
                     <figcaption className="flex items-center justify-center mt-6 space-x-3">
                         <Image className="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture" />
