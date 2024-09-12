@@ -1,8 +1,10 @@
+import { PlayfairDisplay } from "@/app/fonts/fonts";
 import Image from "next/image";
 
 export default function Testimonials() {
     return (
     <div className="h-screen w-full flex justify-center items-center dark:bg-gray-700">
+            <h1 style={PlayfairDisplay.style} className="text-green font-bold text-2xl uppercase">Client testimonials</h1>
 
         <section className="bg-gray-50 dark:bg-gray-800">
             <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
