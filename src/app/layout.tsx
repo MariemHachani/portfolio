@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Header from './components/header'
 
 
 const inter = Inter({ subsets: ['latin'], display: 'swap', })
@@ -9,6 +8,7 @@ const inter = Inter({ subsets: ['latin'], display: 'swap', })
 export const metadata: Metadata = {
   title: 'Mariem Hachani Portfolio',
   description: 'Find the matching skills for your needs',
+  icons: '/svg/cam.svg',
 }
 
 export default function RootLayout({

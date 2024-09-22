@@ -11,10 +11,10 @@
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/nodemailer": "^6.4.14",
-    "next": "14.0.4",
+    "next": "^14.2.13",
     "nodemailer": "^6.9.13",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-hook-form": "^7.51.2",
     "react-icons": "^5.0.1",
     "react-photo-album": "^2.3.1",
@@ -28,7 +28,7 @@
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.16",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4",
+    "eslint-config-next": "^14.2.13",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"

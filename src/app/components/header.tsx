@@ -4,12 +4,11 @@ import { usePathname } from 'next/navigation'
 import { poppins, PlayfairDisplay, dancingscript } from "@/fonts"
 import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { TbPhotoCog } from 'react-icons/tb';
+
 import { IoMailUnreadOutline } from 'react-icons/io5';
 import { MdOutlineHandshake } from 'react-icons/md';
 import { GrGallery } from 'react-icons/gr';
-import { BiHome, BiHomeAlt } from 'react-icons/bi';
-import { HiOutlineHome } from 'react-icons/hi';
+
 import { LuHome } from 'react-icons/lu';
 
 
