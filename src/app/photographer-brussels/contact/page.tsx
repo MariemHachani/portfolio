@@ -61,7 +61,7 @@ export default function Page() {
                                 </a>
                             </li>
                             <li className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a aria-label="Linkedin" href="#">
+                                <a aria-label="Linkedin" href="https://www.linkedin.com/in/mariem-hachani-photography/">
                                     <FiLinkedin stroke="#039f9b" size={20} />
 
                                 </a>

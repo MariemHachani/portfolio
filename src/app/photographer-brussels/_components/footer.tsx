@@ -32,7 +32,7 @@ export default function Footer() {
                         </a>
                     </li>
                     <li className="shrink-0">
-                        <a href="#" aria-label="Linkedin" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center ">
+                        <a href="https://www.linkedin.com/in/mariem-hachani-photography/" aria-label="Linkedin" className="bg-teal-transparent h-10 w-10 rounded-full flex items-center justify-center ">
                             <FiLinkedin stroke="#039f9b" size={20} />
 
                         </a>
