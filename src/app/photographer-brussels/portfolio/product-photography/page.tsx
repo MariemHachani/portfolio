@@ -71,13 +71,13 @@ export default function Products() {
             id: 6,
             src: "../../jpg/product/nike-waffle.webp",
             alt: "dd",
-            width: 4865, height: 3222
+            width: 2865, height: 4222
         },
         {
             id: 7,
             src: "../../jpg/product/pineup.webp",
             alt: "dd",
-            width: 4928, height: 3264
+            width: 2928, height: 4264
         },
 
     ]
