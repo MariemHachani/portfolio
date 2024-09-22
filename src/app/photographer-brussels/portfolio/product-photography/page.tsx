@@ -40,7 +40,7 @@ export default function Products() {
             id: 2,
             src: "../../jpg/product/DSC00283.webp",
             alt: "dd",
-            width: 4303, height: 2850
+            width: 2303, height: 4850
         },
 
         {
