@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'], display: 'swap', })
 export const metadata: Metadata = {
   title: 'Mariem Hachani Portfolio',
   description: 'Find the matching skills for your needs',
-  icons: '../../svg/cam.svg',
+  icons: 'https://mariemhachani.github.io/portfolio/svg/cam.svg',
 }
 
 export default function RootLayout({
