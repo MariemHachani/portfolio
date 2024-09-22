@@ -31,50 +31,50 @@ export default function Products() {
     const [showToggle, setShowToggle] = useState(false);
     let photos = [
         {
-            id: 1,
+           
             src: "../../jpg/product/DSC_0056.webp",
             alt: "dd",
             width: 2961, height: 4145
         },
         {
-            id: 2,
+            
             src: "../../jpg/product/DSC00283.webp",
             alt: "dd",
             width: 2303, height: 3850
         },
 
         {
-            id: 8,
+           
             src: "../../jpg/product/DSC_0044.webp",
             alt: "dd",
             width: 4570, height: 3264
         },
         {
-            id: 3,
+            
             src: "../../jpg/product/DSC_0238.webp",
             alt: "dd",
             width: 3153, height: 4760
         },
         {
-            id: 4,
+            
             src: "../../jpg/product/DSC_0103.webp",
             alt: "dd",
             width: 1255, height: 1920
         },
         {
-            id: 5,
+           
             src: "../../jpg/product/DSC_0258.webp",
             alt: "dd",
             width: 4661, height: 3087
         },
         {
-            id: 6,
+            
             src: "../../jpg/product/nike-waffle.webp",
             alt: "dd",
             width: 2865, height: 3222
         },
         {
-            id: 7,
+           
             src: "../../jpg/product/pineup.webp",
             alt: "dd",
             width: 2928, height: 4264
