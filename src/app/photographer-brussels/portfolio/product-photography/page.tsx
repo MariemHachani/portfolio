@@ -40,7 +40,7 @@ export default function Products() {
             id: 2,
             src: "../../jpg/product/DSC00283.webp",
             alt: "dd",
-            width: 2303, height: 4850
+            width: 2303, height: 3850
         },
 
         {
@@ -71,7 +71,7 @@ export default function Products() {
             id: 6,
             src: "../../jpg/product/nike-waffle.webp",
             alt: "dd",
-            width: 2865, height: 4222
+            width: 2865, height: 3222
         },
         {
             id: 7,
