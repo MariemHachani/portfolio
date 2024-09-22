@@ -15,9 +15,7 @@ export default function HirePhotographer() {
     let photos = [
         {
             id: 1,
-
             src: "../jpg/hire-me/DSC07525.webp",
-
             alt: "dd",
             width: 600, height: 900
         },
