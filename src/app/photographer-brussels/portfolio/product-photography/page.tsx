@@ -38,7 +38,7 @@ export default function Products() {
         },
         {
             id: 2,
-            src: "../../jpg/product/DSC_0058.webp",
+            src: "../../jpg/product/DSC00283.webp",
             alt: "dd",
             width: 4303, height: 2850
         },
@@ -51,7 +51,7 @@ export default function Products() {
         },
         {
             id: 3,
-            src: "../../jpg/product/DSC_0285.webp",
+            src: "../../jpg/product/DSC_0238.webp",
             alt: "dd",
             width: 3153, height: 4760
         },
@@ -69,13 +69,13 @@ export default function Products() {
         },
         {
             id: 6,
-            src: "../../jpg/product/DSC_0523.webp",
+            src: "../../jpg/product/nike-waffle.webp",
             alt: "dd",
             width: 4865, height: 3222
         },
         {
             id: 7,
-            src: "../../jpg/product/DSC_0574.webp",
+            src: "../../jpg/product/pineup.webp",
             alt: "dd",
             width: 4928, height: 3264
         },
