@@ -107,7 +107,7 @@ export default function Events() {
     ]
     return (
         <div className="flex flex-col ">
-            <PhotoStyleBanner title="Events photograher in Brussels" imgUrl="../../jpg/event/DSC_0096.webp" />
+            <PhotoStyleBanner title="Events photograher in Brussels" imgUrl="../../jpg/event/DSC04522.webp" />
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="flex flex-col md:flex-row justify-between ">
                     <div className="flex flex-col w-full md:w-3/5  mr-8">
