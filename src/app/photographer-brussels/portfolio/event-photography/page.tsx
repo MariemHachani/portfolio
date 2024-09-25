@@ -88,7 +88,7 @@ export default function Events() {
         },
         {
             id: 11,
-            src: "../../jpg/event/DSC05820.webp",
+            src: "../../jpg/event/DSC03097.webp",
             alt: "dd",
             width: 3883, height: 5825
         },
@@ -100,14 +100,14 @@ export default function Events() {
         },
         {
             id: 10,
-            src: "../../jpg/event/DSC05810.webp",
+            src: "../../jpg/event/DSC02773.webp",
             alt: "dd",
             width: 5851, height: 3901
         },
     ]
     return (
         <div className="flex flex-col ">
-            <PhotoStyleBanner title="Events photograher in Brussels" imgUrl="../../jpg/event/DSC05810.webp" />
+            <PhotoStyleBanner title="Events photograher in Brussels" imgUrl="../../jpg/event/DSC_0096.webp" />
             <div className="mt-8 sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8  flex flex-col ">
                 <div className="flex flex-col md:flex-row justify-between ">
                     <div className="flex flex-col w-full md:w-3/5  mr-8">

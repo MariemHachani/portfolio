@@ -9,7 +9,7 @@ interface CardProps {
 }
 export default function Card(card: CardProps) {
     return (
-        <Link href={card.url} className="relative w-80 mx-10 my-8 group">
+        <Link href={card.url} className="relative w-60 md:w-80 mx-10 my-8 group">
             <div className="w-full h-80  bg-midpink-extra absolute  -top-8 -left-4">
                 <span style={PlayfairDisplay.style}
                     className="absolute text-darkgreen bottom-4 left-2 leading-none rotate-180 [writing-mode:vertical-lr]  text-black inline-blocks uppercase tracking-widest ">{card.lib}</span>
