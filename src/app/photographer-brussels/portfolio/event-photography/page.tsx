@@ -92,12 +92,7 @@ export default function Events() {
             alt: "dd",
             width: 3883, height: 5825
         },
-        {
-            id: 12,
-            src: "../../jpg/event/DSC05884.webp",
-            alt: "dd",
-            width: 3311, height: 4966
-        },
+       
         {
             id: 10,
             src: "../../jpg/event/DSC02773.webp",
