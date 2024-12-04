@@ -6,9 +6,11 @@ export default function Footer() {
     return (
         <div style={poppins.style} className="bg-darkgreen text-sm text-white py-10 flex flex-col md:flex-row items-center justify-evenly ">
             <div className="flex flex-col gap-2 text-center  md:text-left">
+            <Link href={"/photographer-brussels/portfolio/food-photography"}>Food Photography</Link>
+            <Link href={"/photographer-brussels/portfolio/product-photography"}>Products Photography</Link>
+
                 <Link href={"/photographer-brussels/portfolio/wedding-photography"}>Wedding Photography</Link>
                 <Link href={"/photographer-brussels/portfolio/lifestyle-photography"}>Lifestyle Photography</Link>
-                <Link href={"/photographer-brussels/portfolio/product-photography"}>Products Photography</Link>
                 <Link href={"/photographer-brussels/portfolio/event-photography"}>Events Photography</Link>
             </div>
             <div className="flex flex-col gap-2 text-center mt-8 md:mt-0 md:text-left">
