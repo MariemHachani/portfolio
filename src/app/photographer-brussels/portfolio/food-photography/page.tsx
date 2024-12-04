@@ -113,7 +113,7 @@ export default function Events() {
                     </div>
 
 
-                    <Image height={600} width={600} src="../../jpg/food/DSC06030.webp" alt="food-photography-brussels" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
+                    <Image height={500} width={500} src="../../jpg/food/DSC06030.webp" alt="food-photography-brussels" className="bg-cover pt-8 md:pt-0 h-60 md:h-[500px] w-full object-cover bg-center bg-no-repeat" />
                 </div>
                 <div className="md:pt-5 pt-8 text-end ">
                     <GreenTitle title="Gallery" />
