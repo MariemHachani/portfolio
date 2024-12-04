@@ -108,7 +108,7 @@ export default function Events() {
 
                             <p>I find beauty in every plate, from the vibrant colors of fresh, seasonal ingredients to the artistry of plating that reflects a chef&apos;s creativity and vision. Mains tell a story of tradition and innovation, while desserts embody the sweet finale that lingers in the heart of every diner. My camera doesn&apos;t just take photos—it preserves these moments, turning fleeting flavors into lasting impressions. </p>
                             <br />
-                            <p>Food photography plays a vital role in showcasing the artistry, quality, and appeal of dishes, transforming them into visually compelling stories that entice customers and elevate a brand's identity.</p>
+                            <p>Food photography plays a vital role in showcasing the artistry, quality, and appeal of dishes, transforming them into visually compelling stories that entice customers and elevate a brand&apos;s identity.</p>
                         </div>
                     </div>
 
