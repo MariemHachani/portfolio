@@ -35,6 +35,14 @@ export default function PortfolioCards() {
             img: "../jpg/events-photoshoot.webp"
 
         },
+        {
+            id: 4,
+            lib: "Food",
+            url: "/photographer-brussels/portfolio/food-photography",
+
+            img: "../jpg/food/DSC06030.webp"
+
+        },
     ]
     return (
         <div style={poppins.style}>

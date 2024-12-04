@@ -7,6 +7,7 @@ import Lifestyle from "./_lifestyle/page"
 import Product from "./_products/page"
 import { PlayfairDisplay, poppins } from "../fonts/fonts"
 import Events from "./_events/page"
+import Food from "./_food/page"
 import Services from "./_components/service"
 import Footer from "./_components/footer"
 import NoImageBanner from "./_components/no_image_banner"
@@ -38,6 +39,7 @@ export default function Page() {
       <NoImageBanner title="Need a photograher?" subtitle="I'm here to help you out! Being part of your project for me would mean dedicating all the ressources needed to fulfill your exectations, to share your values and be fully involved in your event. From weddings,  portrait sessions, product commercials to events, with a touch of my own character I will love to showcase your story." />
 
       <div className="w-full sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-12 py-2 md:py-8">
+        <Food />
         <Wedding />
         <Lifestyle />
         <Product />
