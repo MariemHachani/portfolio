@@ -23,16 +23,16 @@ export default function Header() {
 
     const listenScrollEvent = () => {
         //if (window.innerWidth > 430) {
-            if (window.scrollY > 340) {
-                setnavColor("#ffff");
-                setShadow("0 4px 8px 0 rgba(0, 0, 0, 0.2)")
-                settextColor("#e090ad")
-            }
-            else {
-                setnavColor("transparent")
-                settextColor("white")
-                setShadow("0 4px 8px 0 rgba(0, 0, 0, 0 ")
-            }
+        if (window.scrollY > 340) {
+            setnavColor("#ffff");
+            setShadow("0 4px 8px 0 rgba(0, 0, 0, 0.2)")
+            settextColor("#e090ad")
+        }
+        else {
+            setnavColor("transparent")
+            settextColor("white")
+            setShadow("0 4px 8px 0 rgba(0, 0, 0, 0 ")
+        }
         //}
     };
     const handleResize = () => {
@@ -70,10 +70,10 @@ export default function Header() {
             <div className=" sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 md:px-8 py-4 md:py-2 flex justify-between items-center  " >
                 <div className="flex flex-col items-center text-sm md:text-base leading-none drop-shadow-lg">
                     <a href="/portfolio" style={PlayfairDisplay.style}>Mariem Hachani
-                    <div style={dancingscript.style} className='tracking-wider'>
-                        {pathname.includes("photographer-brussels") ? <span >Photography</span> : pathname.includes("logical") ? <span>WebDev</span> : <span className='hidden'>Keep space</span>}
-                    </div>
-                        </a>
+                        <div style={dancingscript.style} className='tracking-wider'>
+                            {pathname.includes("photographer-brussels") ? <span >Photography</span> : pathname.includes("logical") ? <span>WebDev</span> : <span className='hidden'>Keep space</span>}
+                        </div>
+                    </a>
                 </div>
                 <div className='hidden md:flex text-base md:text-lg drop-shadow-lg' style={poppins.style}>
                     {pathname.includes("photographer-brussels") ? (<>
@@ -83,14 +83,12 @@ export default function Header() {
                             <Link className={`mx-2 pb-0.5 cursor-pointer border-b-2 border-transparent  ${pathname === '/portfolio' ? '!border-b-midpink ' : 'hover:border-b-2 hover:border-solid hover:border-b-midpink'} `} href="/photographer-brussels/portfolio">Portfolio</Link>
                             <div className={`absolute text-midpink  bg-white  text-sm top-8 z-30 w-[190px]  hidden flex-col py-4 shadow-sm shadow-midpink rounded-md group-hover:flex`}>
 
-
                                 <Link
                                     className="  px-4 py-1"
-                                    href='/photographer-brussels/portfolio/lifestyle-photography'
+                                    href='/photographer-brussels/portfolio/food-photography'
                                 >
                                     <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
-
-                                        Lifestyle Photoshoots
+                                        Food Photography
                                     </span></Link>
                                 <Link
                                     className="  px-4 py-1"
@@ -99,6 +97,15 @@ export default function Header() {
                                     <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
                                         Product Photography
                                     </span></Link>
+                                <Link
+                                    className="  px-4 py-1"
+                                    href='/photographer-brussels/portfolio/lifestyle-photography'
+                                >
+                                    <span className='border-b-2 border-transparent  hover:hover:border-b-2 hover:border-solid hover:border-b-midpink'>
+
+                                        Lifestyle Photoshoots
+                                    </span></Link>
+
                                 <Link
                                     className="  px-4 py-1"
                                     href='/photographer-brussels/portfolio/wedding-photography'

@@ -34,63 +34,63 @@ export default function Events() {
             id: 1,
             src: "../../jpg/food/DSC05952.webp",
             alt: "dd",
-            width: 4888, height: 3238
+            width: 3855, height: 5783
         },
 
         {
             id: 3,
             src: "../../jpg/food/DSC05969.webp",
             alt: "dd",
-            width: 4668, height: 3092
+            width: 3559, height: 5339
         },
         {
             id: 2,
             src: "../../jpg/food/DSC05993.webp",
             alt: "dd",
-            width: 3050, height: 4605
+            width: 5711, height: 3807
         },
         {
             id: 4,
             src: "../../jpg/food/DSC06016.webp",
             alt: "dd",
-            width: 3264, height: 4928
+            width: 6115, height: 4892
         },
         {
             id: 5,
             src: "../../jpg/food/DSC06021.webp",
             alt: "dd",
-            width: 5688, height: 3792
+            width: 2645, height: 3968
         },
         {
             id: 6,
             src: "../../jpg/food/DSC06030.webp",
             alt: "dd",
-            width: 3839, height: 5759
+            width: 5607, height: 3738
         },
 
         {
             id: 8,
             src: "../../jpg/food/DSC06062.webp",
             alt: "dd",
-            width: 5804, height: 3869
+            width: 6000, height: 4800
         },
         {
             id: 7,
             src: "../../jpg/food/DSC06076.webp",
             alt: "dd",
-            width: 4000, height: 6000
+            width: 5528, height: 3685
         },
         {
             id: 9,
             src: "../../jpg/food/DSC06085.webp",
             alt: "dd",
-            width: 3727, height: 5590
+            width: 6000, height: 4000
         },
         {
             id: 11,
             src: "../../jpg/food/DSC06110.webp",
             alt: "dd",
-            width: 3883, height: 5825
+            width: 4000, height: 6000
         },
 
 

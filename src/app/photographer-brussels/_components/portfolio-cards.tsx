@@ -5,28 +5,29 @@ export default function PortfolioCards() {
     let cards = [
         {
             id: 0,
-            lib: "weddings",
-            url: "/photographer-brussels/portfolio/wedding-photography",
+            lib: "Food",
+            url: "/photographer-brussels/portfolio/food-photography",
 
-            img: "../jpg/wedding-photoshoot.webp"
+            img: "../jpg/food/DSC06030.webp"
 
         },
         {
             id: 1,
-            lib: "lifestyle",
-            url: "/photographer-brussels/portfolio/lifestyle-photography",
-
-            img: "../jpg/lifestyle-photoshoot.webp"
-
-        },
-        {
-            id: 2,
             lib: "products",
             url: "/photographer-brussels/portfolio/product-photography",
 
             img: "../jpg/product-photoshoot.webp"
 
         },
+        {
+            id: 2,
+            lib: "lifestyle",
+            url: "/photographer-brussels/portfolio/lifestyle-photography",
+
+            img: "../jpg/lifestyle-photoshoot.webp"
+
+        },
+
         {
             id: 3,
             lib: "events",
@@ -35,12 +36,13 @@ export default function PortfolioCards() {
             img: "../jpg/events-photoshoot.webp"
 
         },
+
         {
             id: 4,
-            lib: "Food",
-            url: "/photographer-brussels/portfolio/food-photography",
+            lib: "weddings",
+            url: "/photographer-brussels/portfolio/wedding-photography",
 
-            img: "../jpg/food/DSC06030.webp"
+            img: "../jpg/wedding-photoshoot.webp"
 
         },
     ]
